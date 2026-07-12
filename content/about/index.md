@@ -12,7 +12,7 @@ But look at what happens to the work afterward. The answer lives in an export, a
 
 Our bet is that this era just ended. Agentic discovery changes the volumes: hundreds of human-made annotations a week becomes thousands of agent-created annotations a day. At that volume the expensive questions invert — not "what's the answer?" but: which of these claims can be trusted? What evidence supports them? Will they hold up next quarter, in the next engagement, in front of a regulator?
 
-Provenance, evidence, auditability, and portability become table stakes. Exeges is built for that market.
+Provenance, evidence, auditability, and portability become table stakes — and auditability will mean more than an execution log. Recording what an agent did is the easy half; the hard half is preserving what was true: the claim, the exact source version behind it, the review it survived, and whether it still holds when the source changes. Exeges is built for that market.
 
 ## Two shapes of truth
 

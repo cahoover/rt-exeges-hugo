@@ -2,17 +2,23 @@
 title: "Exeges"
 ---
 
-Exeges is the system of record for what your organization knows — and how it came to know it.
+Exeges is the system of record for what your organization knows and how it came to know it.
 
 It is the evidence layer where human and agent work compounds instead of evaporating: every claim verified against source, every answer replayable, every session building on the last.
 
-## Answers evaporate
+## With today's systems, answers evaporate
 
-An analyst spends a day pulling an answer out of a dozen sources. The answer ships; the work that produced it — what was read, what was ruled out, why the conclusion held — evaporates. Six months later, a colleague re-derives it from zero.
+An analyst spends a day pulling an answer out of a dozen sources. The answer ships; the work that produced it evaporates: what was read, what was ruled out, why the conclusion held. Six months later, a colleague re-derives it from zero.
 
-Agents make this worse before they make it better. They produce more claims, faster, with no memory of their own prior work, no way to be interviewed afterward, and a documented willingness to be confidently wrong. A claim you can't trace was always a liability; now there are thousands more of them, arriving daily.
+Agents add to the challenge: more claims, faster, with no memory of their own prior work and a willingness to be confidently wrong. A claim you can't trace was always a liability; now there are thousands more of them, arriving daily.
 
-Today's research tools can merge a dozen sources into an answer, and they are genuinely good at it. But the answer is ephemeral — non-portable, non-auditable, gone when the tab closes. Those systems were designed for an era when discovery was the expensive part of knowledge work. Agents just ended that era. Answers are cheap now. Trust and durability are the new scarcity.
+The market has answered with two kinds of tools, and each preserves the wrong half. 
+
+Research platforms merge a dozen sources into a good answer, but the answer is ephemeral: non-portable, gone when the tab closes. Agent-governance platforms log every step an agent takes, including tool calls, approval gates, tamper-evident audit trails, but an execution log records what the agent *did*, not what is *true*.
+
+Neither preserves the information itself. Claims should be anchored to the specific source that supports them, interpretations must survive review and disagreement, conclusions must support being re-checked when the sources change.
+
+Today's platforms were built for an era when discovery was the expensive part of knowledge work. Agents ended that era. Answers are cheap now; trust and durability are the new scarcity.
 
 ## What makes Exeges different
 
