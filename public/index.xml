@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Research tool on Research Tool</title>
+    <title>Exeges on Exeges</title>
     <link>//localhost:1313/</link>
-    <description>Recent content in Research tool on Research Tool</description>
+    <description>Recent content in Exeges on Exeges</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>cahoover@gmail.com (Christopher Hoover)</managingEditor>
@@ -16,9 +16,9 @@
       <author>cahoover@gmail.com (Christopher Hoover)</author>
       <guid>//localhost:1313/posts/graph-projection-without-worship/</guid>
       <description>&lt;p&gt;(Being what I hope is a catchier title than &amp;ldquo;Why we stopped treating the graph as the center of the system.&amp;rdquo;)&lt;/p&gt;
-&lt;p&gt;When we began building Research Tool, the graph was seductive because it was the most visible, queryable, integrated surface. It looks like the place where everything should live. The first iterations of RT used the graph as the source of truth and the center of gravity. More or less everything revolved around it. I even subscribed to Neo4J marketing emails.&lt;/p&gt;</description>
+&lt;p&gt;When we began building Exeges, the graph was seductive because it was the most visible, queryable, integrated surface. It looks like the place where everything should live. The first iterations of RT used the graph as the source of truth and the center of gravity. More or less everything revolved around it. I even subscribed to Neo4J marketing emails.&lt;/p&gt;</description>
       <content>&lt;p&gt;(Being what I hope is a catchier title than &amp;ldquo;Why we stopped treating the graph as the center of the system.&amp;rdquo;)&lt;/p&gt;
-&lt;p&gt;When we began building Research Tool, the graph was seductive because it was the most visible, queryable, integrated surface. It looks like the place where everything should live. The first iterations of RT used the graph as the source of truth and the center of gravity. More or less everything revolved around it. I even subscribed to Neo4J marketing emails.&lt;/p&gt;
+&lt;p&gt;When we began building Exeges, the graph was seductive because it was the most visible, queryable, integrated surface. It looks like the place where everything should live. The first iterations of RT used the graph as the source of truth and the center of gravity. More or less everything revolved around it. I even subscribed to Neo4J marketing emails.&lt;/p&gt;
 &lt;p&gt;But we discovered that the graph as center of gravity was pulling too many responsibilities into itself:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;truth storage&lt;/li&gt;
@@ -43,7 +43,7 @@
     </item>
     
     <item>
-      <title>Research Tool: The Annotation Substrate</title>
+      <title>Exeges: The Annotation Substrate</title>
       <link>//localhost:1313/posts/the-annotation-substrate/</link>
       <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
       <author>cahoover@gmail.com (Christopher Hoover)</author>
@@ -71,17 +71,17 @@
     </item>
     
     <item>
-      <title>About Research Tool</title>
+      <title>About Exeges</title>
       <link>//localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cahoover@gmail.com (Christopher Hoover)</author>
       <guid>//localhost:1313/about/</guid>
-      <description>&lt;p&gt;Research Tool is an operational intelligence platform for messy, changing evidence&lt;/p&gt;
+      <description>&lt;p&gt;Exeges is an operational intelligence platform for messy, changing evidence&lt;/p&gt;
 &lt;p&gt;Every team working in a high-stakes environment runs into the same problem: the truth is scattered across PDFs, filings, legislation, datasets, various APIs, spreadsheets, notes, and multiple versions of the same source. Search gives you fragments or a firehose. Dashboards only show what was already modeled. LLMs will answer confidently, often without showing their work.&lt;/p&gt;
-&lt;p&gt;Research Tool helps teams monitor change, investigate impact, and make evidence-based decisions. It&amp;rsquo;s built around a simple idea: in large, messy environments, the highest-signal view is usually not the full archive, it&amp;rsquo;s the part that changed. A clause appears. A threshold shifts. A definition quietly changes. A metric disappears. A new exception shows up.&lt;/p&gt;</description>
-      <content>&lt;p&gt;Research Tool is an operational intelligence platform for messy, changing evidence&lt;/p&gt;
+&lt;p&gt;Exeges helps teams monitor change, investigate impact, and make evidence-based decisions. It&amp;rsquo;s built around a simple idea: in large, messy environments, the highest-signal view is usually not the full archive, it&amp;rsquo;s the part that changed. A clause appears. A threshold shifts. A definition quietly changes. A metric disappears. A new exception shows up.&lt;/p&gt;</description>
+      <content>&lt;p&gt;Exeges is an operational intelligence platform for messy, changing evidence&lt;/p&gt;
 &lt;p&gt;Every team working in a high-stakes environment runs into the same problem: the truth is scattered across PDFs, filings, legislation, datasets, various APIs, spreadsheets, notes, and multiple versions of the same source. Search gives you fragments or a firehose. Dashboards only show what was already modeled. LLMs will answer confidently, often without showing their work.&lt;/p&gt;
-&lt;p&gt;Research Tool helps teams monitor change, investigate impact, and make evidence-based decisions. It&amp;rsquo;s built around a simple idea: in large, messy environments, the highest-signal view is usually not the full archive, it&amp;rsquo;s the part that changed. A clause appears. A threshold shifts. A definition quietly changes. A metric disappears. A new exception shows up.&lt;/p&gt;
+&lt;p&gt;Exeges helps teams monitor change, investigate impact, and make evidence-based decisions. It&amp;rsquo;s built around a simple idea: in large, messy environments, the highest-signal view is usually not the full archive, it&amp;rsquo;s the part that changed. A clause appears. A threshold shifts. A definition quietly changes. A metric disappears. A new exception shows up.&lt;/p&gt;
 &lt;p&gt;RT treats that movement as a starting point for analysis. It preserves documents, datasets, machine-derived signals, and analytical outputs as durable, portable artifacts. Every result stays tied to the text spans, rows, or cells that support it. Graph, search, and vector systems sit on top as exploration layers.&lt;/p&gt;
 &lt;p&gt;That lets teams do things like:&lt;/p&gt;
 &lt;ul&gt;
@@ -92,7 +92,7 @@
 &lt;/ul&gt;
 &lt;p&gt;Under the hood, RT models entities, context, conditions, and change consistently, so the same system can answer: What changed? Who or what is affected? What is emerging? What evidence supports that conclusion?&lt;/p&gt;
 &lt;p&gt;Machine output is provisional by default. Notes, annotations, and assessments attach directly to evidence and become part of the operating picture.&lt;/p&gt;
-&lt;p&gt;Research Tool is built for teams working in messy, changing, high-consequence environments. Interested? Reach out.&lt;/p&gt;
+&lt;p&gt;Exeges is built for teams working in messy, changing, high-consequence environments. Interested? Reach out.&lt;/p&gt;
 </content>
     </item>
     
@@ -102,10 +102,10 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cahoover@gmail.com (Christopher Hoover)</author>
       <guid>//localhost:1313/architecture/</guid>
-      <description>&lt;p&gt;Research Tool is a multi-layered platform that turns complex, evolving sources into durable, queryable, evidence-backed systems of knowledge. Its architecture preserves structure, supports reproducibility, and enables discovery across documents, datasets, media, and time. It&amp;rsquo;s built in Python and Rust.&lt;/p&gt;
+      <description>&lt;p&gt;Exeges is a multi-layered platform that turns complex, evolving sources into durable, queryable, evidence-backed systems of knowledge. Its architecture preserves structure, supports reproducibility, and enables discovery across documents, datasets, media, and time. It&amp;rsquo;s built in Python and Rust.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Multimodal Ingestion&lt;/strong&gt;&lt;br&gt;
 RT’s ingestion layer turns raw sources into durable, versioned artifacts across documents, datasets, HTML, XML, and media. It is the front door to the platform and the beginning of the evidence chain, designed to preserve provenance from the first step of processing.&lt;/p&gt;</description>
-      <content>&lt;p&gt;Research Tool is a multi-layered platform that turns complex, evolving sources into durable, queryable, evidence-backed systems of knowledge. Its architecture preserves structure, supports reproducibility, and enables discovery across documents, datasets, media, and time. It&amp;rsquo;s built in Python and Rust.&lt;/p&gt;
+      <content>&lt;p&gt;Exeges is a multi-layered platform that turns complex, evolving sources into durable, queryable, evidence-backed systems of knowledge. Its architecture preserves structure, supports reproducibility, and enables discovery across documents, datasets, media, and time. It&amp;rsquo;s built in Python and Rust.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Multimodal Ingestion&lt;/strong&gt;&lt;br&gt;
 RT’s ingestion layer turns raw sources into durable, versioned artifacts across documents, datasets, HTML, XML, and media. It is the front door to the platform and the beginning of the evidence chain, designed to preserve provenance from the first step of processing.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Structured Data Engine&lt;/strong&gt;&lt;br&gt;
@@ -146,7 +146,7 @@ RT’s control plane coordinates jobs, manages specifications, tracks execution,
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>cahoover@gmail.com (Christopher Hoover)</author>
       <guid>//localhost:1313/use-cases/</guid>
-      <description>&lt;p&gt;Research Tool is an &lt;strong&gt;operational intelligence platform for messy, changing evidence&lt;/strong&gt;. It can:&lt;/p&gt;
+      <description>&lt;p&gt;Exeges is an &lt;strong&gt;operational intelligence platform for messy, changing evidence&lt;/strong&gt;. It can:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;unify fragmented data and documents&lt;/li&gt;
 &lt;li&gt;preserve lineage and evidence&lt;/li&gt;
@@ -164,7 +164,7 @@ RT’s control plane coordinates jobs, manages specifications, tracks execution,
 &lt;/ul&gt;
 &lt;h2 id=&#34;2-blast-radius-analysis&#34;&gt;2. Blast-radius analysis&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;“What do I need to care about now?”&lt;/strong&gt;&lt;/p&gt;</description>
-      <content>&lt;p&gt;Research Tool is an &lt;strong&gt;operational intelligence platform for messy, changing evidence&lt;/strong&gt;. It can:&lt;/p&gt;
+      <content>&lt;p&gt;Exeges is an &lt;strong&gt;operational intelligence platform for messy, changing evidence&lt;/strong&gt;. It can:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;unify fragmented data and documents&lt;/li&gt;
 &lt;li&gt;preserve lineage and evidence&lt;/li&gt;

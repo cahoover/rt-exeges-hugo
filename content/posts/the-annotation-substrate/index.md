@@ -1,9 +1,9 @@
 ---
 author: "Christopher Hoover"
-title: "Research Tool: The Annotation Substrate"
+title: "Exeges: The Annotation Substrate"
 date: "2026-03-19"
 tags:
-- research tool
+- Exeges
 - parsing
 - architecture
 ---
@@ -15,7 +15,7 @@ We don’t treat it that way. When someone is working through dense material, le
 ## The annotation substrate
 Substrate (noun): the base something lives on.
 
-At RT, we’ve been building what we call an annotation substrate, a durable layer where human and (human-verified) machine judgments are treated as first-class objects. They have an identity. They have history. They have a lifecycle. This isn’t “notes on top of content,” it’s infrastructure that makes judgment sturdy enough to become part of system behavior.
+At Exeges, we’ve been building what we call an annotation substrate, a durable layer where human and (human-verified) machine judgments are treated as first-class objects. They have an identity. They have history. They have a lifecycle. This isn’t “notes on top of content,” it’s infrastructure that makes judgment sturdy enough to become part of system behavior.
 
 For example: an analyst marks a statutory provision as ambiguous. The provision is the target. The justification might be a conflicting committee report, a related amendment, and an older analyst note that argued the opposite. Those aren’t the same kind of thing. They play different roles, so the system should represent them differently.
 

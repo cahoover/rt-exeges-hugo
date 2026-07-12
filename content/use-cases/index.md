@@ -2,76 +2,48 @@
 title: "Use cases"
 ---
 
-Research Tool is an **operational intelligence platform for messy, changing evidence**. It can:
-
-* unify fragmented data and documents
-* preserve lineage and evidence
-* model entities, events, and change over time
-* let operators move from signal to decision
-
+Exeges turns large, changing datasets into knowledge that compounds — mapped, monitored, investigated, and defended with evidence. The jobs below are the same whether your corpus is regulatory, financial, operational, or clinical; the examples are projections, not boundaries.
 
 ## 1. Change monitoring for critical documents and policies
 
 **Know what changed in the rules of the game.**
 
-RT treats change as a high-signal entry point for discovery. 
+The highest-signal event in a critical corpus is change. Exeges renders each new version into a verified change map, fires on the sections you have marked as yours, and — because monitoring runs across the whole corpus — also surfaces the wide, quiet movements: coordinated language shifts, new exceptions, changing priorities across many documents at once.
 
 Examples:
 
-* Defense: doctrine, procurement language, sanctions, threat reporting, operational directives
-* Finance: filings, debt agreements, earnings language, regulatory updates, disclosures
-* Healthcare: reimbursement rules, clinical guidance, formularies, policy bulletins
-
+* Defense: doctrine, procurement language, sanctions, operational directives
+* Finance: filings, debt agreements, regulatory updates, disclosures
+* Healthcare: reimbursement rules, clinical guidance, policy bulletins
 
 ## 2. Blast-radius analysis
 
-**“What do I need to care about now?”**
+**"What do I need to care about now?"**
 
-RT helps connect events with downstream consequences.
-
-Examples:
-
-* A clause changes in a contract or bill — which entities, business units, topics, or metrics are exposed?
-* A policy update lands — which portfolio companies, facilities, or cohorts are impacted?
-* A new healthcare rule appears — which claims, procedures, or provider groups move into risk?
-
-
-## 3. All-source case building on an entity, network, or account
-
-**Build the operating picture for a person, company, unit, supplier, or patient population.**
-
-RT makes the corpus navigable as a system, as well as searchable as files. 
+Exeges models what sources do to each other, so a change arrives with its consequences attached. The answer is not a search result — it is a traversal of typed relationships, each one clickable to the text that proves it.
 
 Examples:
 
-* Defense/intelligence: build a dossier on an actor or network from reports, messages, documents, and structured events
-* Finance: investigate a counterparty, issuer, executive, or suspicious network
-* Healthcare: understand a provider group, treatment pathway, claims pattern, or patient cohort
+* A clause changes in a contract or bill — which entities, business units, or metrics are exposed?
+* A policy update lands — which portfolio companies, facilities, or cohorts are affected?
+* A new reimbursement rule appears — which claims, procedures, or provider groups move into risk?
 
+## 3. All-source case building
 
-## 4. Early-warning and emerging risk detection
+**Build the operating picture for a person, company, unit, supplier, or cohort.**
 
-**Spot emerging risk before it is obvious.**
-
-RT surfaces weak signals and pattern changes across a system, supporting systemic as well as entity-level change. 
-
-Examples:
-
-* Defense: coordinated language shifts, new exceptions, changing priorities across many documents
-* Finance: governance drift, distress signals, fraud indicators, unusual disclosure patterns
-* Healthcare: coding drift, rising adverse-event language, unusual utilization or reimbursement shifts
-
-
-## 5. Analyst-driven adjudication and collaboration
-**Turn competing evidence into an operationally usable view of truth.**
-
-RT’s annotation and assessment model delivers a workflow for handling ambiguity, disagreement, and accountability.
+Exeges makes a corpus navigable as a system, not just searchable as files — and every element of the picture stays anchored to its sources, so the case survives handoff, scrutiny, and time.
 
 Examples:
 
-* Analysts annotate, dispute, confirm, and escalate claims
-* Teams distinguish provisional AI output from validated conclusions
-* Leadership sees what is believed, what is contested, and what still needs review
+* Defense/intelligence: build a dossier on an actor or network from reports, documents, and structured events
+* Finance: investigate a counterparty, issuer, or suspicious network
+* Healthcare: understand a provider group, treatment pathway, or claims pattern
 
+## 4. Institutional memory that compounds
 
+**Every question your team ever asked, still verifiable years later.**
 
+Analyst and agent findings accumulate on the corpus as durable, excerpt-verified annotations. Provisional machine output is distinguished from validated conclusions; disagreement is visible and adjudicated, not silently overwritten. New hires — and new agent sessions — inherit everything the team has established instead of re-deriving it, and leadership sees what is believed, what is contested, and what still needs review.
+
+Most tools sell answers. This is the asset they cannot produce: an annotated corpus that is the firm's memory.

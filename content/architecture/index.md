@@ -2,34 +2,40 @@
 title: "Architecture"
 ---
 
-Research Tool is a multi-layered platform that turns complex, evolving sources into durable, queryable, evidence-backed systems of knowledge. Its architecture preserves structure, supports reproducibility, and enables discovery across documents, datasets, media, and time. It's built in Python and Rust. 
+Exeges is a multi-layered platform that turns complex, evolving sources into durable, queryable, evidence-backed knowledge. This page is the machinery behind the claims on the rest of the site — the reason work in Exeges compounds, replays, and holds up under audit. It's built in Python and Rust.
 
-**Multimodal Ingestion**  
-RT’s ingestion layer turns raw sources into durable, versioned artifacts across documents, datasets, HTML, XML, and media. It is the front door to the platform and the beginning of the evidence chain, designed to preserve provenance from the first step of processing.
+## The evidence foundation
 
-**Structured Data Engine**  
-RT transforms structured data into governed analytical surfaces that can be normalized across sources, compared over time, and projected into reusable states, relationships, and dynamics. Our testing routinely processes 200M rows. 
+**Durable Artifact Plane**
+The source-of-truth layer: deterministic identities, reproducible artifacts, manifest-based publishing, and stable contracts for downstream systems. Everything above this layer is a rebuildable projection of it — which is what makes replay and audit possible rather than aspirational.
 
-**Document & Media Parsing**  
-RT preserves structure, hierarchy, and evidence fidelity across PDFs, HTML, XML, and media transcripts. Rather than flattening everything into undifferentiated chunks, it retains the internal form of source material so downstream systems can reason over real structure.
+**Annotation Substrate**
+Stand-off semantics on stable document coordinates: canonical annotation bundles and deterministic resolution keep human and machine judgments anchored to the exact spans that support them, durably and across versions. This is the substrate that lets knowledge work compound. We wrote about it [here](/posts/the-annotation-substrate/).
 
-**Annotation Substrate**  
-RT’s annotation substrate is a foundational architecture for stand-off semantics. It combines a structure substrate, canonical annotation bundles, and deterministic resolution, allowing machine and human annotations to remain grounded in stable document coordinates. We wrote a bit about it [here](/posts/the-annotation-substrate/).
+## Understanding the sources
 
-**Durable Artifact Plane**  
-This is RT’s source-of-truth layer: deterministic identities, reproducible artifacts, manifest-based publishing, and stable contracts for downstream systems. It is the foundation that makes replay, auditability, and controlled evolution possible.
+**Multimodal Ingestion**
+Turns raw sources — documents, datasets, HTML, XML, media — into durable, versioned artifacts. The front door of the platform and the first link in the evidence chain: provenance is preserved from the first step of processing.
 
-**Enrichment & Knowledge Derivation**  
-RT combines machine enrichment with analyst-authored semantic layering. This layer derives observations, states, arcs, and annotations from source artifacts while also supporting human validation, curation, and interpretation as first-class knowledge surfaces.
+**Document & Media Parsing**
+Preserves structure, hierarchy, and evidence fidelity across PDFs, HTML, XML, and media transcripts. Rather than flattening everything into undifferentiated chunks, it retains the internal form of source material so downstream systems can reason over real structure.
 
-**Search & Retrieval Stack**  
-RT’s search stack combines query understanding, hybrid retrieval, graph context expansion, and answer generation. It is designed not as a thin keyword layer, but as a multi-stage retrieval system for evidence-backed exploration.
+**Structured Data Engine**
+Transforms structured data into governed analytical surfaces that can be normalized across sources, compared over time, and projected into reusable states and relationships. In testing, the engine has processed millions of rows without strain — so far, the limit has been how much data we could feed it, not how fast it processes.
 
-**Graph Projection & Runtime**  
-RT projects durable artifacts into navigable runtime surfaces, including graph, search, and vector representations. This layer supports graph rendering, graph persistence, search indexing, embeddings, and staged projection into operational views.
+**Enrichment & Knowledge Derivation**
+Combines machine enrichment with analyst-authored semantic layering: observations, states, arcs, and annotations derived from source artifacts, with human validation and curation as first-class knowledge surfaces.
 
-**Exploration & Discovery Loop**  
-RT supports graph-in-the-loop discovery through bounded planning and iterative computation. Candidate sets, checkpoints, and guided exploration loops make it possible to move from raw information to high-signal analytical paths without brute force.
+## Acting on the evidence
 
-**Control Plane & Orchestration**  
-RT’s control plane coordinates jobs, manages specifications, tracks execution, and governs graph change workflows. It is the orchestration layer that keeps the system reproducible, observable, and operational at scale.
+**Search & Retrieval Stack**
+Query understanding, hybrid retrieval, graph context expansion, and answer generation — a multi-stage retrieval system for evidence-backed exploration, not a thin keyword layer. Some notes [here](/posts/search-discovery-loop/).
+
+**Graph Projection & Runtime**
+Projects durable artifacts into navigable runtime surfaces — graph, search index, and vector representations — through staged, rebuildable projection. On why the graph is a projection and not the source of truth: [Graph Projection without Graph Worship](/posts/graph-projection-without-worship/).
+
+**Exploration & Discovery Loop**
+Graph-in-the-loop discovery through bounded planning and iterative computation. Candidate sets, checkpoints, and guided loops move from raw information to high-signal analytical paths without brute force.
+
+**Control Plane & Orchestration**
+Coordinates jobs, manages specifications, tracks execution, and governs change workflows — the layer that keeps the system reproducible, observable, and operational at scale.

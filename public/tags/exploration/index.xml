@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Exploration on Research Tool</title>
+    <title>Exploration on Exeges</title>
     <link>//localhost:1313/tags/exploration/</link>
-    <description>Recent content in Exploration on Research Tool</description>
+    <description>Recent content in Exploration on Exeges</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>cahoover@gmail.com (Christopher Hoover)</managingEditor>
@@ -16,9 +16,9 @@
       <author>cahoover@gmail.com (Christopher Hoover)</author>
       <guid>//localhost:1313/posts/graph-projection-without-worship/</guid>
       <description>&lt;p&gt;(Being what I hope is a catchier title than &amp;ldquo;Why we stopped treating the graph as the center of the system.&amp;rdquo;)&lt;/p&gt;
-&lt;p&gt;When we began building Research Tool, the graph was seductive because it was the most visible, queryable, integrated surface. It looks like the place where everything should live. The first iterations of RT used the graph as the source of truth and the center of gravity. More or less everything revolved around it. I even subscribed to Neo4J marketing emails.&lt;/p&gt;</description>
+&lt;p&gt;When we began building Exeges, the graph was seductive because it was the most visible, queryable, integrated surface. It looks like the place where everything should live. The first iterations of RT used the graph as the source of truth and the center of gravity. More or less everything revolved around it. I even subscribed to Neo4J marketing emails.&lt;/p&gt;</description>
       <content>&lt;p&gt;(Being what I hope is a catchier title than &amp;ldquo;Why we stopped treating the graph as the center of the system.&amp;rdquo;)&lt;/p&gt;
-&lt;p&gt;When we began building Research Tool, the graph was seductive because it was the most visible, queryable, integrated surface. It looks like the place where everything should live. The first iterations of RT used the graph as the source of truth and the center of gravity. More or less everything revolved around it. I even subscribed to Neo4J marketing emails.&lt;/p&gt;
+&lt;p&gt;When we began building Exeges, the graph was seductive because it was the most visible, queryable, integrated surface. It looks like the place where everything should live. The first iterations of RT used the graph as the source of truth and the center of gravity. More or less everything revolved around it. I even subscribed to Neo4J marketing emails.&lt;/p&gt;
 &lt;p&gt;But we discovered that the graph as center of gravity was pulling too many responsibilities into itself:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;truth storage&lt;/li&gt;

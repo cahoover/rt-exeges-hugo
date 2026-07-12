@@ -1,5 +1,5 @@
 baseurl = "/"
-title = 'Research Tool'
+title = 'Exeges'
 
 [module]
   [[module.imports]]
@@ -28,7 +28,7 @@ pagination.pagerSize = 10
   favicon = "/favicon_io/favicon.ico"
 
 [params.Logo]
-  logoText = "Research Tool"
+  logoText = "Exeges"
 
 [params.author]
   name = "Christopher Hoover"

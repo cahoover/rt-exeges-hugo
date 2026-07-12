@@ -3,14 +3,14 @@ author: "Christopher Hoover"
 title: "Graph Projection without Graph Worship"
 date: "2026-04-03"
 tags:
-- research tool
+- Exeges
 - exploration
 - architecture
 ---
 
 (Being what I hope is a catchier title than "Why we stopped treating the graph as the center of the system.")
 
-When we began building Research Tool, the graph was seductive because it was the most visible, queryable, integrated surface. It looks like the place where everything should live. The first iterations of RT used the graph as the source of truth and the center of gravity. More or less everything revolved around it. I even subscribed to Neo4J marketing emails. 
+When we began building Exeges, the graph was seductive because it was the most visible, queryable, integrated surface. It looks like the place where everything should live. The first iterations of the platform used the graph as the source of truth and the center of gravity. More or less everything revolved around it. I even subscribed to Neo4J marketing emails. 
 
 But we discovered that the graph as center of gravity was pulling too many responsibilities into itself:
 

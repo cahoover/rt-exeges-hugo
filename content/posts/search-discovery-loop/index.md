@@ -3,7 +3,7 @@ author: "Christopher Hoover"
 title: "Search as Part of an Iterative Discovery Loop"
 date: "2026-04-10"
 tags:
-- research tool
+- Exeges
 - exploration
 - architecture
 ---
@@ -11,7 +11,7 @@ Most systems think in terms of search first, analytics second. But once a corpus
 
 As the depth and breadth of data grow, search can start to wander, analytics can become brute force, and graphs can become more of an ornament than a provider of real context. This is a real challenge if you aren't sure what you're looking for, and you don't know what's available to explore.
 
-Research Tool approaches this challenge with an iterative discovery loop. In each round, search converts an underspecified question into the next bounded investigative move. The graph/lexical/vector stack helps decide what's worth computing by evaluating topology, neighborhood, joinability, coverage, prior outcomes, and known dead ends. 
+Exeges approaches this challenge with an iterative discovery loop. In each round, search converts an underspecified question into the next bounded investigative move. The graph/lexical/vector stack helps decide what's worth computing by evaluating topology, neighborhood, joinability, coverage, prior outcomes, and known dead ends. 
 
 Every round produces a durable checkpoint that informs the next one. Checkpoints describe what was done and what was found, and inform the next planning pass about what was already tried, what succeeded, what failed, and what inputs produced which outcome.
 
@@ -27,4 +27,4 @@ This way, the system is strong where machines are strong: constraining search sp
 
 For most analyses, "finding something" is rarely the hard part of working across large datasets. What's tougher is deciding what to do next without exploding the search space, wasting compute, or drifting into arbitrary exploration.
 
-In Research Tool, search results aren't (just) answers. They're entry points into the next move: compare these versions, inspect these changed sections, test this correlation on this cohort, widen this neighborhood, narrow that taxonomy, follow this chain.
+In Exeges, search results aren't (just) answers. They're entry points into the next move: compare these versions, inspect these changed sections, test this correlation on this cohort, widen this neighborhood, narrow that taxonomy, follow this chain.

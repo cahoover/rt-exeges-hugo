@@ -1,25 +1,29 @@
 ---
-title: "Research Tool"
+title: "Exeges"
 ---
 
-Research Tool is operational intelligence and guidance for humans and agents, built on durable evidence.
+Exeges is the system of record for what your organization knows — and how it came to know it.
 
-Every kind of evidence — documents, data, streams, media, human and agent judgments — continuously rendered into a live picture of operational reality. Every frame traces back to source.
+It is the evidence layer where human and agent work compounds instead of evaporating: every claim verified against source, every answer replayable, every session building on the last.
 
-## The problem we're solving
+## Answers evaporate
 
-In complex environments, good decisions need two things at once: a rich, current picture of what is happening — messy, multimodal, constantly changing — and a durable record of what was known, decided, and done. Those are different data shapes. Dashboards give you the view but lose the trail; records preserve the trail but lose the view. 
+An analyst spends a day pulling an answer out of a dozen sources. The answer ships; the work that produced it — what was read, what was ruled out, why the conclusion held — evaporates. Six months later, a colleague re-derives it from zero.
 
-Using agents in complex environments make this split impossible to ignore. They consume the operational picture and contribute to the audit record at the same instant; neither holds up unless both are backed by the same evidence. Agents are stateless, cannot be interviewed, and can hallucinate. Their claims and actions must be checked at write-time, against rules that are themselves durable evidence. 
+Agents make this worse before they make it better. They produce more claims, faster, with no memory of their own prior work, no way to be interviewed afterward, and a documented willingness to be confidently wrong. A claim you can't trace was always a liability; now there are thousands more of them, arriving daily.
 
-Research Tool delivers both operational intelligence and operational guidance including facts, judgments, and authorizations, on one evidence layer, with every operational view and every agent action rebuildable from it without breaking the chain of proof.
+Today's research tools can merge a dozen sources into an answer, and they are genuinely good at it. But the answer is ephemeral — non-portable, non-auditable, gone when the tab closes. Those systems were designed for an era when discovery was the expensive part of knowledge work. Agents just ended that era. Answers are cheap now. Trust and durability are the new scarcity.
 
-## What Research Tool does
+## What makes Exeges different
 
-Consider how Pixar movies are made: multiple teams designing digital puppets, movements, textures, colors, etc., all defined in math. These billions of separate data points are combined and rendered into a movie you can watch. Research Tool does something similar, but for operational reality. Every kind of evidence - documents, data, streams, media, model outputs, human and agent judgments — flows into a durable, evolving foundation, like a flight recorder. From that foundation, the views humans and agents need to act are continuously rendered; what's true now, what changed, what rules apply, who decided what, what was done. The render never stops, and every frame traces back to the evidence that produced it.
+**Structure, not text piles.** Exeges models what your sources do to each other — versions, references, amendments, dependencies — not just what they say. When something changes, you see what it touches. Every relationship is clickable through to the source that proves it.
 
-## Project status
+**Work that compounds.** Human and agent findings are captured as durable annotations on the corpus itself, verified against source excerpts before they are accepted. The next question starts from everything already established, and coverage is observable — what has been examined, what was skimmed, what remains untouched.
 
-Research Tool is in an intermediate stage with robust infrastructure proven at scale. Our first MVP customers and public demos are expected in summer 2026. See [Architecture](/architecture) for more information.
+**Answers you can replay.** Every claim round-trips to preserved source evidence — not logs of tool calls, the actual chain of proof. Findings become sourced briefs, briefs become governed cases, and every step can be replayed, claim by claim, long after the work was done.
 
-Browse the [posts](/posts/) or learn more [about RT](/about/).
+## See it
+
+First public demos are running summer 2026. [Get in touch](mailto:chris@research-tool.ai?subject=Exeges%20demo) to see one, or read [what the demo shows](/features/).
+
+More: [about Exeges](/about/) · [architecture](/architecture/) · [posts](/posts/)

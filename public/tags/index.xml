@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Research Tool</title>
+    <title>Tags on Exeges</title>
     <link>//localhost:1313/tags/</link>
-    <description>Recent content in Tags on Research Tool</description>
+    <description>Recent content in Tags on Exeges</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>cahoover@gmail.com (Christopher Hoover)</managingEditor>
@@ -30,7 +30,7 @@
     </item>
     
     <item>
-      <title>Research Tool</title>
+      <title>Exeges</title>
       <link>//localhost:1313/tags/research-tool/</link>
       <pubDate>Fri, 03 Apr 2026 00:00:00 +0000</pubDate>
       <author>cahoover@gmail.com (Christopher Hoover)</author>
