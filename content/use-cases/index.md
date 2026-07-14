@@ -8,7 +8,7 @@ Exeges turns large, changing datasets into knowledge that compounds — mapped, 
 
 **Know what changed in the rules of the game.**
 
-The highest-signal event in a critical corpus is change. Exeges renders each new version into a verified change map, fires on the sections you have marked as yours, and — because monitoring runs across the whole corpus — also surfaces the wide, quiet movements: coordinated language shifts, new exceptions, changing priorities across many documents at once.
+The highest-signal event in a critical corpus is change. Exeges renders each new version into a verified change map and fires on the sections you have marked as yours — dispatching investigation on arrival, not just notification. And because monitoring runs across the whole corpus, it also surfaces the wide, quiet movements: coordinated language shifts, new exceptions, changing priorities across many documents at once.
 
 Examples:
 
