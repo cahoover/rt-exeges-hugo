@@ -6,7 +6,7 @@ AI creates its own ocean of information disconnected from the original sources. 
 
 Exeges enables analysts and AI agents to work across large, evolving document sets — regulatory filings, legal discovery corpora, contract portfolios, legislation — and record findings as annotations anchored to the specific source passage. Agentic work is automatically verified against the cited evidence; mismatches are rejected.
 
-Every analyst and agent starts from what's already been established. Exeges is the system of record for it: what the organization knows and how it came to know it, replayable, claim by claim, for an auditor, a regulator, or opposing counsel.
+Every analyst and agent starts from what's already been established. Exeges is the system of record for what the organization knows and how it came to know it, replayable, claim by claim, for an auditor, a regulator, or opposing counsel.
 
 ## How today's systems fall short
 
