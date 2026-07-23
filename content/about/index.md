@@ -1,7 +1,6 @@
 ---
 title: "About Exeges"
 ---
-
 AI analysis platforms deliver strong synthesis with ephemeral output: nothing compounds, nothing is kept in a form an auditor could replay, every analysis starts from zero. Agent-governance platforms preserve the other half; they can prove what an agent did, not whether its findings survive the evidence. 
 
 AI made analysis cheap, and in doing so made trust the scarce asset.  

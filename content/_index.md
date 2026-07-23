@@ -1,7 +1,6 @@
 ---
 title: "Exeges"
 ---
-
 Compliance and legal teams are starting to use AI to read regulatory filings, contracts, and legislation, but when an auditor or opposing counsel asks, "Why did you act?" a chat transcript is not an answer. Neither is an agent's memory log.
 
 Exeges makes AI document analysis audit-ready. Every finding, whether filed by an AI agent or a human analyst, must be anchored to the source passage it cites. Any finding whose citation doesn't verify against the document is rejected.
@@ -12,7 +11,9 @@ A compliance analyst opens Exeges Monday morning to a queue of verified findings
 
 ## How today's systems fall short
 
-Research platforms merge a dozen sources into a strong synthesis, but that synthesis is ephemeral: non-portable, gone when the tab closes. Agent-governance platforms log every step an agent takes — tool calls, approval gates, tamper-evident audit trails — but an execution log records what the agent *did*, not whether its findings survive the evidence.
+Research platforms merge a dozen sources into a strong synthesis, but that synthesis is ephemeral: non-portable, gone when the tab closes. Agent-governance platforms log every step an agent takes — tool calls, approval gates, tamper-evident audit trails — but their execution log records what the agent *did*, not whether its findings survive the evidence.
+
+Agent-memory platforms keep the agent's diary: what it came to believe, in its own words, unverified. This diary can't tell you what the agent *ought* to have known, or where what it thought was true was hallucinated and/or quietly parted ways with the evidence.
 
 Today's platforms were built for an era when finding answers was the expensive part of knowledge work. Agents ended that era. Answers are cheap now; trust and durability are the new scarcity. 
 

@@ -1,7 +1,6 @@
 ---
 title: "Features"
 ---
-
 **A finding in Exeges becomes part of the corpus.** Exeges records what your organization knows as durable annotations, each anchored to the exact passage it describes, the way latitude and longitude anchor a point to the map. An extraction filed in a separate store can't defend itself; an annotation can. It lives on the document, points at the text that proves it, and holds its position as the corpus grows and changes around it.
 
 The record itself is a set of plain files: an open columnar format in your own object storage. If we disappeared tomorrow, you could read everything your team ever established with a laptop.

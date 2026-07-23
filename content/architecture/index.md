@@ -1,7 +1,6 @@
 ---
 title: "Architecture"
 ---
-
 Exeges turns complex, evolving sources into durable, auditable, queryable, evidence-backed knowledge.
 
 ## The evidence foundation
@@ -26,7 +25,7 @@ Combines machine enrichment with analyst-authored semantic layering: observation
 ## Information retrieval
 
 **Search & Retrieval Stack**
-Query understanding, hybrid retrieval, graph context expansion, and answer generation — a multi-stage retrieval system for evidence-backed exploration, not a thin keyword layer. Some notes [here](/posts/search-discovery-loop/).
+Query understanding, hybrid retrieval, graph context expansion, and answer generation — a multi-stage retrieval system for evidence-backed exploration, not a thin keyword layer.
 
 **Projection & Runtime**
 Projects durable artifacts into navigable runtime surfaces — graph, search index, and vector representations — through staged, rebuildable projection.

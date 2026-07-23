@@ -1,39 +1,47 @@
 ---
 author: "Christopher Hoover"
 title: "Exeges: The Annotation Substrate"
-date: "2026-03-19"
+date: "2026-07-23"
 tags:
 - Exeges
 - parsing
 - architecture
 ---
 
-Most ‌people ‌hear ‌“annotation” and picture a sticky note, a little comment bubble hanging off the margin. Extra metadata you tack on afterward. The kind of feature a team adds in Sprint 14 because a customer asked for “collaboration.”
+An annotation in Exeges is a coordinate, not a comment. The way latitude and longitude anchor a point to the map, an annotation anchors a piece of judgment — *this section was amended, this figure is a reporting artifact, this provision is ambiguous* — to the exact passage it describes.
 
-We don’t treat it that way. When someone is working through dense material, legislation, regulatory filings, contracts, or even messy quantitative observations, the real value rarely sits in the raw source. It sits in the judgment and connections formed while reading it. How one amendment quietly collides with another. Whether a revised sentence is an actual policy shift or just cleanup. Why a sudden spike in a series is probably a reporting quirk, not the world changing overnight.
+TL;DR: The value of working through dense material — legislation, filings, contracts — isn't in the raw text; it's in the judgments formed while reading it, and most software either throws those judgments away or files them in some separate store where the source can't defend them. Exeges records every judgment as a durable annotation anchored to the corpus, addressable, with an identity and lifecycle of its own. Done consistently, at corpus scale, the annotation layer becomes something you can navigate, query, and audit — a record of what your organization knows, attached to the evidence for it.
 
-## The annotation substrate
-Substrate (noun): the base something lives on.
+## A coordinate system for documents
 
-At Exeges, we’ve been building what we call an annotation substrate, a durable layer where human and (human-verified) machine judgments are treated as first-class objects. They have an identity. They have history. They have a lifecycle. This isn’t “notes on top of content,” it’s infrastructure that makes judgment sturdy enough to become part of system behavior.
+When a document enters Exeges, parsing gives every element a stable address — sections, paragraphs, sentences, table cells. An annotation is a row in an open columnar file that points at one of those addresses. Durable coordinates, not brittle character offsets: the anchor survives re-rendering, re-indexing, and every change in how the document is displayed.
 
-For example: an analyst marks a statutory provision as ambiguous. The provision is the target. The justification might be a conflicting committee report, a related amendment, and an older analyst note that argued the opposite. Those aren’t the same kind of thing. They play different roles, so the system should represent them differently.
+Because annotations are addressable, they can point at each other. A finding can cite another finding as evidence. A newer conclusion can supersede an older one — which stays in the record, retracted but replayable. The record itself is plain files in your own object storage; the search, vector, and graph indexes that make it fast to explore are projections *of* the record, rebuildable from it at any time. The index is never the system of record. The annotations are.
 
-If you squash all of that into a single “comment on this highlighted span,” you lose what makes annotations searchable, composable, and reusable.
+## Targets and evidence play different roles
 
-Durable annotations enable another navigation surface across the corpus, such as: show every provision marked as ambiguous; list findings that rely on this committee report; surface where analysts disagree; track what shifted after a particular amendment; pull every quantitative observation linked to this clause.
+An analyst marks a statutory provision as ambiguous. The provision is the **target**. The justification might be a conflicting committee report, a related amendment, and an older analyst note that argued the opposite — those are **evidence**, and each plays a different role in the judgment. The substrate keeps those roles distinct instead of flattening everything into a comment on a highlighted span.
 
-## What about structured data?
-The same idea extends to structured data.
+That distinction is what makes the layer queryable. Show every provision marked ambiguous. List the findings that rely on this committee report. Surface where analysts disagree. Track what shifted after a particular amendment. Each of those is a query over roles, and none of them is possible if judgment is stored as free-text notes.
 
-We work with quantitative observations next to legal text, measures, time series, outcomes, analytic checkpoints, and so on. Analysts need to annotate those too: “This spike is a reporting artifact.” “This correlation stops holding after the 2019 rule change.” “This measure isn’t comparable after the statutory revision.”
+## Three kinds of authors, one layer
 
-That means a single annotation can say: This statistical trend (structured target) -> is explained by this clause (document evidence) -> and contradicted by this prior finding (another structured target).
+**Deterministic passes flag whatever you need flagged** — every citation, every mention of a name, every dollar figure — anything mechanically identifiable, annotated across the whole corpus at once.
 
-## Compounding impact
-Annotations made over time (e.g. by a team) have compounding value for the exploration of a large corpus. You can start at a clause and jump to the metrics it might influence. Or begin with an anomaly in the numbers and move back to the governing language. You can trace where an earlier conclusion gets strengthened, weakened, or overturned as versions shift and sources change. You can disagree with annotations and track disagreements. 
+**AI agents file claims, and every claim must survive verification.** An agent's finding is checked against the source excerpt it cites before it can enter the record. Quote text that isn't there, and the whole write is rejected.
 
-## Still early, but the direction is clear
-It’s early. The structured targeting layer still needs resolver APIs, selector schemas, and firmer calls around versioning. Plenty remains to be nailed down.
+**People adjudicate and extend.** Analysts write notes with typed stances — support, dispute, question, validate — anchored like everything else, including to other annotations. Disagreement isn't a comment thread; it's part of the record, and it's queryable like everything else.
 
-But the path is straightforward: one substrate across modalities, durable coordinates rather than brittle offsets, explicit evidence rather than collapsed comments, and judgment you can reuse.
+Three author classes, three verification disciplines, one anchored layer.
+
+## What a seeded corpus unlocks
+
+Annotations compound. Ask for *every section that adds an amendment and rescinds funding*, and the answer is a proven set, not a relevance ranking: which conditions matched, how many sections, how many occurrences. Start at a clause and traverse to everything that depends on it. Start from an anomaly and walk back to the governing language. Trace how a conclusion strengthened, weakened, or got overturned as new versions arrived — every step of the chain anchored to the text that proves it.
+
+## Structured data, same substrate
+
+The idea doesn't stop at documents. Quantitative observations — measures, time series, analytic checkpoints — take annotations the same way: *this spike is a reporting artifact; this correlation stops holding after the 2019 rule change*. A single annotation can span modalities: this statistical trend (structured target) is explained by this clause (document evidence) and contradicted by this prior finding (another annotation). One coordinate system, whatever the material.
+
+## Why it matters
+
+A judgment stored as a chat transcript or a margin note evaporates or drifts away from its source. A judgment stored as a durable annotation stays attached to the passage that justifies it, keeps its history when it's challenged or superseded, and remains answerable — years later — to the question every auditor eventually asks: *how did you know that?*
