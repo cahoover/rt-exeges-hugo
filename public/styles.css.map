@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "styles.css",
-	"sourceRoot": "/Users/chris/research-tool-hugo",
+	"sourceRoot": "/Users/chris/exeges-hugo",
 	"sources": [
 		"css/base.scss",
 		"../Library/Caches/hugo_cache/modules/filecache/modules/pkg/mod/github.com/mirus-ua/hugo-theme-re-terminal/v2@v2.4.3/assets/css/variables-light.scss",

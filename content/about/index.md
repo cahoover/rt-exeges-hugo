@@ -18,4 +18,4 @@ That chain is the product: what your organization knows, and how it came to know
 
 Exeges is built for teams working in messy, changing, high-consequence environments — wherever the dataset is large, the ground shifts, and "show your work" is not optional.
 
-Interested? [Get in touch](mailto:chris@research-tool.ai?subject=Exeges).
+Interested? [Get in touch](mailto:chris@exeges.ai?subject=Exeges).

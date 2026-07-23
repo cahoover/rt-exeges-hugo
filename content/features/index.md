@@ -26,4 +26,4 @@ The record itself is a set of plain files: an open columnar format in your own o
 
 ---
 
-First public demos are running summer 2026. [Get in touch](mailto:chris@research-tool.ai?subject=Exeges%20demo) to see one.
+First public demos are running summer 2026. [Get in touch](mailto:chris@exeges.ai?subject=Exeges%20demo) to see one.
