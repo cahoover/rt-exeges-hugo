@@ -32,6 +32,6 @@ Exeges maintains a loop that runs continuously over the full body of sources you
 
 ## See it
 
-First public demos are running summer 2026. [Get in touch](mailto:chris@research-tool.ai?subject=Exeges%20demo) to see one, or read [what the demo shows](/features/).
+First public demos are running summer 2026. [Get in touch](mailto:chris@research-tool.ai?subject=Exeges%20demo) to see one.
 
 More: [about Exeges](/about/) · [architecture](/architecture/) · [posts](/posts/)

@@ -8,42 +8,30 @@ Exeges turns large, changing datasets into knowledge that compounds — mapped, 
 
 **Know what changed in the rules of the game.**
 
-The highest-signal event in a critical corpus is change. Exeges renders each new version into a verified change map and fires on the sections you have marked as yours — dispatching investigation on arrival, not just notification. And because monitoring runs across the whole corpus, it also surfaces the wide, quiet movements: coordinated language shifts, new exceptions, changing priorities across many documents at once.
+The highest-signal event in a critical corpus is change. Exeges renders each new version into a verified change map — every difference filed as a durable annotation — and fires on the sections you have marked as yours, dispatching investigation on arrival, not just notification. And because monitoring runs across the whole corpus, it also surfaces the wide, quiet movements: coordinated language shifts, new exceptions, changing priorities across many documents at once.
 
-Examples:
-
-* Defense: doctrine, procurement language, sanctions, operational directives
-* Finance: filings, debt agreements, regulatory updates, disclosures
-* Healthcare: reimbursement rules, clinical guidance, policy bulletins
+*Defense doctrine and sanctions · financial filings and debt agreements · reimbursement rules and clinical guidance.*
 
 ## 2. Blast-radius analysis
 
 **"What do I need to care about now?"**
 
-Exeges models what sources do to each other, so a change arrives with its consequences attached. The answer is not a search result — it is a traversal of typed relationships, each one clickable to the text that proves it.
+Exeges models what sources do to each other, so a change arrives with its consequences attached. The answer is not a search result — it is a traversal of typed relationships, each one clickable to the text that proves it. And when you need the exact set, ask for it: every section that adds an amendment *and* rescinds funding — a proven set selected by annotation membership, with its evidence attached, not a search guess.
 
-Examples:
-
-* A clause changes in a contract or bill — which entities, business units, or metrics are exposed?
-* A policy update lands — which portfolio companies, facilities, or cohorts are affected?
-* A new reimbursement rule appears — which claims, procedures, or provider groups move into risk?
+*Which entities does a changed clause expose? Which facilities does a policy update touch? Which procedures does a new reimbursement rule move into risk?*
 
 ## 3. All-source case building
 
 **Build the operating picture for a person, company, unit, supplier, or cohort.**
 
-Exeges makes a corpus navigable as a system, not just searchable as files — and every element of the picture stays anchored to its sources, so the case survives handoff, scrutiny, and time.
+Exeges makes a corpus navigable as a system, not just searchable as files — and every element of the picture is an annotation anchored to its sources, so the case survives handoff, scrutiny, and time.
 
-Examples:
-
-* Defense/intelligence: build a dossier on an actor or network from reports, documents, and structured events
-* Finance: investigate a counterparty, issuer, or suspicious network
-* Healthcare: understand a provider group, treatment pathway, or claims pattern
+*A dossier on an actor or network · a counterparty or issuer investigation · a provider group or claims pattern.*
 
 ## 4. Institutional memory that compounds
 
 **Every question your team ever asked, still verifiable years later.**
 
-Analyst and agent findings accumulate on the corpus as durable, excerpt-verified annotations. Provisional machine output is distinguished from validated conclusions; disagreement is visible and adjudicated, not silently overwritten. New hires — and new agent sessions — inherit everything the team has established instead of re-deriving it, and leadership sees what is believed, what is contested, and what still needs review.
+Analyst and agent findings accumulate on the corpus as durable, excerpt-verified annotations. Provisional machine output is distinguished from validated conclusions; disagreement is visible and adjudicated — a dispute is itself an annotation, typed and anchored — never silently overwritten. New hires and new agent sessions inherit everything the team has established instead of re-deriving it, and leadership sees what is believed, what is contested, and what still needs review.
 
 Most tools sell answers. This is the asset they cannot produce: an annotated corpus that is the firm's memory.

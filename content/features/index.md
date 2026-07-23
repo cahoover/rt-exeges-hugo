@@ -2,31 +2,27 @@
 title: "Features"
 ---
 
-What Exeges does, told the way you'll see it in a live demo — this is the loop from the front page, run live on a real corpus. Our current demo corpus is legislative — a major act of Congress and the United States Code it amends — but nothing below is specific to legislation. Read it with your own critical corpus in mind.
+**A finding in Exeges becomes part of the corpus.** Exeges records what your organization knows as durable annotations, each anchored to the exact passage it describes, the way latitude and longitude anchor a point to the map. An extraction filed in a separate store can't defend itself; an annotation can. It lives on the document, points at the text that proves it, and holds its position as the corpus grows and changes around it.
 
-## 1. Map the change
+The record itself is a set of plain files: an open columnar format in your own object storage. If we disappeared tomorrow, you could read everything your team ever established with a laptop.
 
-A new version of a critical source lands. Exeges renders a verified map of everything it changes — every modification typed and structured, every entry clickable through to the exact source text it affects. Not a summary you have to trust; a map you can check.
+## Three kinds of authors. One layer.
 
-*In the demo: a 900-page act of Congress becomes a navigable change map — every amendment, appropriation, and rescission traced to the statute it modifies.*
+**Deterministic passes flag whatever you need flagged.** Every citation, every mention of a name, every dollar figure, every image — anything that can be identified mechanically is annotated across the whole corpus at once. This creates the scaffolding the other authors build on.
 
-## 2. Change is investigated on arrival
+**AI agents file claims, and every claim must survive verification.** An agent's finding is checked against the source excerpt it cites before it can enter the record. Quote text that isn't there, and the whole write is rejected.
 
-Mark the sections of the corpus that are yours. When a new version arrives, Exeges evaluates everything that changed and fires only on your watches — you don't triage the whole diff. And a fired watch doesn't send you a notification: it dispatches a bounded agent session. The agent reads the diff, investigates the surrounding context, and files its findings directly on the section — a flag for what warrants attention, and a plain-language summary of what the change means. Every annotation is verified against source excerpts before it is accepted; an agent cannot file a claim the evidence doesn't support.
+**People adjudicate and extend.** Analysts write notes with typed stances — support, dispute, question, validate — anchored like everything else, including to other annotations. Disagreement isn't a comment thread; it's part of the record.
 
-*In the demo: a new version changes dozens of sections; the single section the analyst marked is the one that fires — and the investigation runs live, its findings appearing on the document, anchored to the section the agent examined.*
+## What a seeded corpus unlocks
 
-## 3. Work compounds
+**See what the record holds.** Every annotation family is counted and mapped: where amendments concentrate, which sections carry budget language, what has been examined and what remains untouched. A corpus stops being a pile of documents and becomes an accounted-for structure.
 
-Findings — human and agent — accumulate on the corpus as durable annotations, and the next question starts from everything already established. Agent sessions build on prior sessions instead of re-deriving the map. A coverage overlay shows what has been examined, skimmed, or left untouched — observed from system behavior, not asserted by the agent.
+**Ask for the set — and get the proof.** *"Every section that adds an amendment and rescinds funding."* The answer is a proven set, not a relevance ranking that a typical RAG would generate: which conditions matched, how many sections, how many occurrences — selected by annotation membership, ordered by document order.
 
-*In the demo: an analyst asks which sections both rescind appropriations and amend existing law — and gets typed, sourced evidence back, not a similarity guess. A follow-on agent session picks up the accumulated annotations and extends them.*
+**Ask in plain language.** *"How does this law affect workers' tips?"* Answers come back anchored: sections opened in place in the annotated corpus, with the amendments, budget references, and prior findings already visible on the passage the answer landed on. The follow-up question is a click, not another search.
 
-## 4. Decide and defend
-
-A finding exits exploration through a governed path: it becomes a sourced brief, the brief opens a case, the case is adjudicated, and the decision lands on a ledger. Every step replays — claim by claim — back to preserved source evidence. Not logs of tool calls; the chain of proof.
-
-*In the demo: a finding becomes a brief, the case is adjudicated, and the evidence chain replays back to the source text.*
+**When a source changes, the loop runs.** A new version lands, every difference is annotated on arrival, watched sections dispatch an agent to investigate — and what survives verification joins the record. [The loop from the front page](/), running on this layer.
 
 ---
 
