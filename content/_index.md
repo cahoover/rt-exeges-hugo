@@ -2,11 +2,13 @@
 title: "Exeges"
 ---
 
-AI creates its own ocean of information disconnected from the original sources. This is a problem for companies because decisions increasingly rest on that second-hand ocean, and when an auditor, regulator, or court asks "why did you act?", a chat transcript is not an answer. 
+Compliance and legal teams are starting to use AI to read regulatory filings, contracts, and legislation, but when an auditor or opposing counsel asks, "Why did you act?" a chat transcript is not an answer. Neither is an agent's memory log.
 
-Exeges enables analysts and AI agents to work across large, evolving document sets — regulatory filings, legal discovery corpora, contract portfolios, legislation — and record findings as annotations anchored to the specific source passage. Agentic work is automatically verified against the cited evidence; mismatches are rejected.
+Exeges makes AI document analysis audit-ready. Every finding, whether filed by an AI agent or a human analyst, must be anchored to the source passage it cites. Any finding whose citation doesn't verify against the document is rejected.
 
-Every analyst and agent starts from what's already been established. Exeges is the system of record for what the organization knows and how it came to know it, replayable, claim by claim, for an auditor, a regulator, or opposing counsel.
+When a new version of a document lands (a filing, a regulation, a contract), every difference is annotated automatically, section by section. Changes in sections of interest trigger an agent to investigate.
+
+A compliance analyst opens Exeges Monday morning to a queue of verified findings on Friday's Fed rule change, each already defensible and added to the shared record every future analysis starts from. When a regulator asks why a decision was made, the answer replays claim by claim back to source text. 
 
 ## How today's systems fall short
 
@@ -20,9 +22,9 @@ Exeges maintains a loop that runs continuously over the full body of sources you
 
 **Your corpus is a living structure.** Exeges models how sources impact each other, including versions, references, amendments, dependencies. Every relationship is clickable through to the text that proves it. And the structure moves: new versions, new documents, new data, arriving all the time. That structure is what change is measured against.
 
-**Change is flagged on arrival.** A new version lands — a filing, a regulation, a contract. Every difference is annotated automatically, section by section. But what the investigation finds doesn't go straight into the record.
+**Change is flagged on arrival.** A new version lands — a filing, a regulation, a contract. Every difference is annotated automatically, section by section. Changes in sections of interest trigger an agent to investigate, but what the investigation finds doesn't go straight into the record.
 
-**Nothing enters the record unverified.** Agent findings are checked against source excerpts before they are accepted. An agent cannot cite text that isn't there; findings are checked against the source before acceptance, and whether the finding holds is adjudicated by people accountable for the result. What survives becomes part of the corpus itself.
+**Nothing enters the record unverified.** Agent findings are checked against source excerpts before they are accepted; an agent cannot cite text that isn't there. What's accepted stays open to review by the people accountable for the result, and what survives becomes part of the corpus itself.
 
 **Findings live on the corpus.** Accepted findings are filed as annotations, anchored to the passage that proves them - not a report about your sources or logs of tool calls. And because a finding is part of the corpus, filing one is something the system can react to.
 
