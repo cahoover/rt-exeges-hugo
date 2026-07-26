@@ -1,9 +1,7 @@
 ---
 title: "Features"
 ---
-**A finding in Exeges becomes part of the corpus.** Exeges records what your organization knows as durable annotations, each anchored to the exact passage it describes, the way latitude and longitude anchor a point to the map. An extraction filed in a separate store can't defend itself; an annotation can. It lives on the document, points at the text that proves it, and holds its position as the corpus grows and changes around it.
-
-The record itself is a set of plain files: an open columnar format in your own object storage. If we disappeared tomorrow, you could read everything your team ever established with a laptop.
+**A finding in Exeges becomes part of the corpus.** Exeges records what your organization knows as durable annotations, each anchored to the passage it describes, the way latitude and longitude anchor a point to the map. An extraction filed in a separate store can't defend itself; an annotation can. It lives on the document, points at the text that proves it, and holds its position as the corpus grows and changes around it.
 
 ## Three kinds of authors. One layer.
 
@@ -19,9 +17,9 @@ The record itself is a set of plain files: an open columnar format in your own o
 
 **Ask for the set — and get the proof.** *"Every section that adds an amendment and rescinds funding."* The answer is a proven set, not a relevance ranking that a typical RAG would generate: which conditions matched, how many sections, how many occurrences — selected by annotation membership, ordered by document order.
 
-**Ask in plain language.** *"How does this law affect workers' tips?"* Answers come back anchored: sections opened in place in the annotated corpus, with the amendments, budget references, and prior findings already visible on the passage the answer landed on. The follow-up question is a click, not another search.
+**Ask in plain language.** *"How does this law affect workers' tips?"* Answers come back anchored: sections opened in place in the annotated corpus, and prior findings already visible on the passage the answer landed on. The follow-up question is a click, not another search.
 
-**When a source changes, the loop runs.** A new version lands, every difference is annotated on arrival, watched sections dispatch an agent to investigate — and what survives verification joins the record. [The loop from the front page](/), running on this layer.
+**When a source changes, the loop runs.** A new version lands, every difference is annotated on arrival, watched sections dispatch an agent to investigate — and what survives verification joins the record.
 
 ---
 

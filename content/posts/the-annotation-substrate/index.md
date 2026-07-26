@@ -14,13 +14,13 @@ TL;DR: The value of working through dense material — legislation, filings, con
 
 ## A coordinate system for documents
 
-When a document enters Exeges, parsing gives every element a stable address — sections, paragraphs, sentences, table cells. An annotation is a row in an open columnar file that points at one of those addresses. Durable coordinates, not brittle character offsets: the anchor survives re-rendering, re-indexing, and every change in how the document is displayed.
+When a document enters Exeges, parsing gives every element a stable address — sections, paragraphs, sentences, table cells. An annotation is a durable, addressable record that points at one of those addresses. It survives re-rendering, re-indexing, and every change in how the document is displayed.
 
-Because annotations are addressable, they can point at each other. A finding can cite another finding as evidence. A newer conclusion can supersede an older one — which stays in the record, retracted but replayable. The record itself is plain files in your own object storage; the search, vector, and graph indexes that make it fast to explore are projections *of* the record, rebuildable from it at any time. The index is never the system of record. The annotations are.
+Because annotations are addressable, they can point at each other. A finding can cite another finding as evidence. A newer conclusion can supersede an older one — which stays in the record, retracted but replayable.
 
 ## Targets and evidence play different roles
 
-An analyst marks a statutory provision as ambiguous. The provision is the **target**. The justification might be a conflicting committee report, a related amendment, and an older analyst note that argued the opposite — those are **evidence**, and each plays a different role in the judgment. The substrate keeps those roles distinct instead of flattening everything into a comment on a highlighted span.
+An analyst marks a statutory provision as ambiguous. The provision is the **target**. The justification might be a conflicting committee report, a related amendment, and an older analyst note that argued the opposite — those are **evidence**, and each plays a different role in the judgment. The substrate keeps those roles distinct.
 
 That distinction is what makes the layer queryable. Show every provision marked ambiguous. List the findings that rely on this committee report. Surface where analysts disagree. Track what shifted after a particular amendment. Each of those is a query over roles, and none of them is possible if judgment is stored as free-text notes.
 
