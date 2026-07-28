@@ -2,7 +2,7 @@
 title: "How it works"
 aliases: ["/use-cases/"]
 ---
-**Exeges turns your sources into a corpus, then records what your organization learns directly on it.** Documents, datasets, filings, and transcripts are ingested as versioned sources — structure intact, never flattened into chunks — and given stable coordinates, the way latitude and longitude anchor a point to a map. 
+**Exeges turns your sources into a corpus, then records what your organization learns directly on it.** Documents, datasets, filings, and transcripts are ingested as versioned sources — structure intact, not flattened into chunks — and given stable coordinates, the way latitude and longitude anchor a point to a map. 
 
 Every finding, by human, machine, or AI, is filed as a durable annotation at those coordinates. An annotation lives on the document, points at the text that proves it, and holds its position as the corpus grows and changes around it.
 
