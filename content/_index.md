@@ -11,11 +11,13 @@ A compliance analyst opens Exeges Monday morning to a queue of verified findings
 
 ## How today's systems fall short
 
+The system most teams actually run today is an analyst with a chat window. The output can be excellent, and that's what makes it dangerous. Nothing about it scales except the volume: every finding is re-derived from scratch, no one else can open the session it came from, and the citation was never checked against the source. Six months on, the record of why is a recollection.
+
 Research platforms merge a dozen sources into a strong synthesis, but that synthesis is ephemeral: gone when the tab closes. Agent-governance platforms log every step an agent takes — tool calls, approval gates, tamper-evident audit trails — but their execution log records what the agent *did*, not whether its findings survive the evidence.
 
 Agent-memory platforms keep the agent's diary: what it came to believe, in its own words, unverified. This diary can't tell you what the agent *ought* to have known, or where what it thought was true was hallucinated and/or quietly parted ways with the evidence.
 
-Today's platforms were built for an era when finding answers was the expensive part of knowledge work. Agents ended that era. Answers are cheap now; trust and durability are the new scarcity. 
+Today's platforms were built for an era when finding answers was the expensive part of knowledge work. AI ended that era. Answers are cheap now; trust and durability are the new scarcity. 
 
 ## What makes Exeges different
 
