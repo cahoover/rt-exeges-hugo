@@ -4,6 +4,8 @@ aliases: ["/use-cases/"]
 ---
 **Exeges turns your sources into a corpus, then records what your organization learns directly on it.** Documents, datasets, filings, and transcripts are ingested as versioned sources — structure intact, not flattened into chunks — and given stable coordinates, the way latitude and longitude anchor a point to a map. 
 
+Findings are made the way you already work. Ask a question in plain language and get an answer synthesized across the whole corpus. Turn an agent loose on a section and let it investigate. Run a deterministic pass and flag every occurrence at once. What's different isn't the asking, it's that the answer doesn't evaporate when the session closes.
+
 Every finding, by human, machine, or AI, is filed as a durable annotation at those coordinates. An annotation lives on the document, points at the text that proves it, and holds its position as the corpus grows and changes around it.
 
 ## Three kinds of authors. One layer.
