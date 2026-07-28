@@ -2,7 +2,7 @@
 title: "How it works"
 aliases: ["/use-cases/"]
 ---
-**A finding in Exeges becomes part of the corpus.** Exeges records what your organization knows as durable annotations, each anchored to the passage it describes, the way latitude and longitude anchor a point to the map. An extraction filed in a separate store can't defend itself; an annotation can. It lives on the document, points at the text that proves it, and holds its position as the corpus grows and changes around it.
+**Exeges turns your sources into a corpus, then records what your organization learns directly on it.** Documents, datasets, filings, and transcripts are ingested as versioned sources — structure intact, never flattened into chunks — and given stable coordinates, the way latitude and longitude anchor a point to a map. Every finding is filed as a durable annotation at those coordinates: it lives on the document, points at the text that proves it, and holds its position as the corpus grows and changes around it. An extraction filed in a separate store can't defend itself; an annotation can.
 
 ## Three kinds of authors. One layer.
 
