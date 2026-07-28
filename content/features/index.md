@@ -8,7 +8,7 @@ Every finding, by human, machine, or AI, is filed as a durable annotation at tho
 
 ## Three kinds of authors. One layer.
 
-**Deterministic passes flag whatever you need flagged.** Every citation, every mention of a name, every dollar figure, every image — anything that can be identified mechanically is annotated across the whole corpus at once. This creates the scaffolding the other authors build on.
+**Deterministic passes flag whatever you need flagged.** Every citation, every mention of a name, every dollar figure, every image — anything that can be identified mechanically is automatically annotated across the whole corpus at once. This creates the scaffolding the other authors build on.
 
 **AI agents file claims, and every claim must survive verification.** An agent's finding is checked against the source excerpt it cites before it can enter the record. Quote text that isn't there, and the whole write is rejected.
 
