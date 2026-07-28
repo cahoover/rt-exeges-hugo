@@ -1,5 +1,6 @@
 ---
-title: "Features"
+title: "How it works"
+aliases: ["/use-cases/"]
 ---
 **A finding in Exeges becomes part of the corpus.** Exeges records what your organization knows as durable annotations, each anchored to the passage it describes, the way latitude and longitude anchor a point to the map. An extraction filed in a separate store can't defend itself; an annotation can. It lives on the document, points at the text that proves it, and holds its position as the corpus grows and changes around it.
 
@@ -11,15 +12,37 @@ title: "Features"
 
 **People adjudicate and extend.** Analysts write notes with typed stances — support, dispute, question, validate — anchored like everything else, including to other annotations. Disagreement isn't a comment thread; it's part of the record.
 
-## What a seeded corpus unlocks
+The jobs below are the same whether your corpus is regulatory, financial, operational, or clinical. The examples are projections, not boundaries.
 
-**See what the record holds.** Every annotation family is counted and mapped: where amendments concentrate, which sections carry budget language, what has been examined and what remains untouched. A corpus stops being a pile of documents and becomes an accounted-for structure.
+## 1. Change monitoring for critical documents and policies
 
-**Ask for the set — and get the proof.** *"Every section that adds an amendment and rescinds funding."* The answer is a proven set, not a relevance ranking that a typical RAG would generate: which conditions matched, how many sections, how many occurrences — selected by annotation membership, ordered by document order.
+**Know what changed in the rules of the game.**
 
-**Ask in plain language.** *"How does this law affect workers' tips?"* Answers come back anchored: sections opened in place in the annotated corpus, and prior findings already visible on the passage the answer landed on. The follow-up question is a click, not another search.
+The highest-signal event is change — updated boilerplate in an SEC filing, new regulations, amended tax laws. Each new version is rendered into a change map with every difference filed as a durable annotation, and watched sections dispatch an agent to investigate on arrival, not just a red line or an alert. Monitoring runs across the whole corpus, so it also surfaces the wide, quiet movements: coordinated language shifts, new exceptions, changing priorities across many documents at once.
 
-**When a source changes, the loop runs.** A new version lands, every difference is annotated on arrival, watched sections dispatch an agent to investigate — and what survives verification joins the record.
+*Defense doctrine and sanctions · financial filings and debt agreements · reimbursement rules and clinical guidance.*
+
+## 2. Blast-radius analysis
+
+**"What do I need to care about now?"**
+
+Exeges models what sources do to each other, so a change arrives with its consequences attached — search is a traversal of typed relationships, each one clickable to the text that proves it. Ask for an exact set instead of a ranking and you get one: *"every section that adds an amendment and rescinds funding"* returns a proven set, selected by annotation membership, ordered by document order. *(Running in the demo today.)* Plain-language questions land in the same place: sections open in the annotated corpus, with prior findings already visible on the passage the answer landed on.
+
+*Which entities does a changed clause expose? Which facilities does a policy update touch? Which procedures does a new reimbursement rule move into risk?*
+
+## 3. All-source case building
+
+**Build the operating picture for a person, company, unit, supplier, or cohort.**
+
+Every annotation family is counted and mapped — where amendments concentrate, which sections carry budget language, what has been examined and what remains untouched — so a corpus stops being a pile of documents and becomes an accounted-for structure. Every element of the picture is an annotation anchored to its sources, so the case survives handoff, scrutiny, and time.
+
+*A dossier on an actor or network · a counterparty or issuer investigation · a provider group or claims pattern.*
+
+## 4. Institutional memory that compounds
+
+**Every question your team ever asked, still verifiable years later.**
+
+Analyst and agent findings accumulate on the corpus, so provisional machine output stays distinguishable from validated conclusions and contested ground stays visible rather than silently overwritten. New hires and new agent sessions inherit everything the team has established instead of re-deriving it.
 
 ---
 

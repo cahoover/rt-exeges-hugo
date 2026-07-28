@@ -6,7 +6,7 @@ Exeges turns complex, evolving sources into durable, auditable, queryable, evide
 ## The evidence foundation
 
 **Data Mapping**
-A matrix similar to latitude and longitude is created and applied to every data source, creating stable coordinates. Human and machine judgments are anchored to the spans that support them, durably and across versions. We wrote about this feature [here](/posts/the-annotation-substrate/).
+Just as latitude and longitude anchor location in a map, Exeges creates stable coordinates across every data source. Human and machine judgments are anchored to the spans that support them, durably and across versions. We wrote about this feature [here](/posts/the-annotation-substrate/).
 
 **Durable Artifacts & Manifests**
 Every AI analysis resolves to the original sources that informed it: the document, an annotation over it, and a manifest recording what produced both. An answer given last year replays against the record it was drawn from, not reconstructed from a log of what the system did.
