@@ -2,7 +2,7 @@
 title: "How it works"
 aliases: ["/use-cases/"]
 ---
-**Exeges keeps every source you rely on in one versioned place, and records every conclusion your team (human or agent) reaches anchored to the passage that proves it.** Documents, datasets, filings, and transcripts are ingested as versioned sources with structure intact. Every source is given stable coordinates, the way latitude and longitude anchor a point to a map. 
+**Exeges keeps every source you rely on in one versioned place, and records every conclusion your team reaches anchored to the passage that proves it.** Documents, datasets, filings, and transcripts are ingested as versioned sources with structure intact. Every source is given stable coordinates, the way latitude and longitude anchor a point to a map. 
 
 Findings are made the way you already work. Ask a question in plain language and get an answer synthesized across the whole corpus. Turn an agent loose on a section and let it investigate. Run a deterministic pass and flag every occurrence at once. 
 
