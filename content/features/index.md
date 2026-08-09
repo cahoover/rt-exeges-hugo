@@ -2,7 +2,7 @@
 title: "How it works"
 aliases: ["/use-cases/"]
 ---
-**Exeges turns your sources into a corpus, then records what your organization learns directly on it.** Documents, datasets, filings, and transcripts are ingested as versioned sources — structure intact, not flattened into chunks — and given stable coordinates, the way latitude and longitude anchor a point to a map. 
+**Exeges keeps every source you rely on in one versioned place, and records every conclusion your team (human or agent) reaches anchored to the passage that proves it.** Documents, datasets, filings, and transcripts are ingested as versioned sources with structure intact. Every source is given stable coordinates, the way latitude and longitude anchor a point to a map. 
 
 Findings are made the way you already work. Ask a question in plain language and get an answer synthesized across the whole corpus. Turn an agent loose on a section and let it investigate. Run a deterministic pass and flag every occurrence at once. 
 
@@ -12,7 +12,7 @@ Every finding, by human, machine, or AI, is anchored to those coordinates and fi
 
 **Deterministic passes flag whatever you need flagged.** You choose what you'd like the system to automatically flag in a document. This could be anything - every citation, every mention of a name, every dollar figure, every image, whatever you like. If it can be identified mechanically, it's flagged across the whole corpus at once, each occurrence anchored to its location. This creates the scaffolding the other authors build on.
 
-**AI agents file claims, and every claim must survive verification.** Agent behavior is defined in a customizable cookbook. An agent's finding is checked against the source excerpt it cites before it can enter the record. If an agent attempts to quote text that isn't there, and the whole write is rejected.
+**AI agents file claims, and every claim must survive verification.** Agent behavior is defined in a customizable cookbook. An agent's finding is checked against the source excerpt it cites before it can enter the record. If an agent attempts to quote text that isn't there, the whole write is rejected.
 
 **People adjudicate and extend.** Analysts file findings with typed stances — support, dispute, question, validate — anchored like everything else, including to other findings. Disagreement isn't a comment thread; it's part of the record.
 
@@ -22,7 +22,7 @@ The jobs below are the same whether your corpus is regulatory, financial, operat
 
 **Know what changed in the rules of the game — and which of your conclusions survive it.**
 
-The highest-signal event is change — updated boilerplate in an SEC filing, new regulations, amended tax laws. Each new version is rendered into a change map, every difference anchored to the passages it touches. The system doesn't just create a redline or alert for watched sections; an agent is dispatched to investigate changes and create a impact finding. 
+The highest-signal event is change — updated boilerplate in an SEC filing, new regulations, amended tax laws. Each new version is rendered into a change map, every difference anchored to the passages it touches. The system doesn't just create a redline or alert for watched sections; an agent is dispatched to investigate changes and create an impact finding. 
 
 Because findings are anchored to the text, change arrives already joined to your record: every conclusion resting on what moved is re-tested, so you learn not just what's different but which of your positions still stand, with proof either way. Monitoring runs across the whole corpus, so it also surfaces the wide, quiet movements: coordinated language shifts, new exceptions, changing priorities across many documents at once.
 
