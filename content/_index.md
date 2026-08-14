@@ -13,7 +13,7 @@ The system most teams actually run today is an analyst with a chat window. The o
 
 Research platforms merge a dozen sources into a strong synthesis, but that synthesis is ephemeral: gone when the tab closes. Agent-governance platforms log every step an agent takes — tool calls, approval gates, tamper-evident audit trails — but their execution log records what the agent *did*, not whether its findings survive the evidence.
 
-Agent-memory platforms keep the agent's diary: what it came to believe, in its own words, unverified. This diary can't tell you what the agent *ought* to have known, or where what it thought was true was hallucinated, or quietly parted ways with the evidence.
+Agent-memory platforms keep the agent's diary: what it came to believe, in its own words, unverified. This diary can't tell you what the agent *ought* to have known, or where what it thought was true was hallucinated, or quietly parted ways with the evidence, or was based on obsolete information.
 
 Today's platforms were built for an era when finding answers was the expensive part of knowledge work. AI ended that era. Plausible answers are cheap now; trust and durability are the new scarcity. 
 
@@ -23,17 +23,17 @@ Exeges maintains a loop that runs continuously over the full body of sources you
 
 **Your corpus is a living structure.** Exeges models how sources impact each other, including versions, references, amendments, dependencies. Every relationship is clickable through to the text that proves it. And the structure moves: new versions, new documents, new data, arriving all the time. That structure is what change is measured against.
 
-**Change is flagged on arrival.** A new version lands — a filing, a regulation, a contract. Every difference is annotated automatically, section by section. Changes in sections of interest trigger an agent to investigate, but what the investigation finds doesn't go straight into the record.
+**Change is flagged on arrival.** A new version lands — a filing, a regulation, a contract. Every difference is flagged automatically, section by section. Changes in sections of interest trigger an agent to investigate, but what the investigation finds doesn't go straight into the record.
 
 **Nothing enters the record unverified.** Agent findings are checked against source excerpts before they are accepted; an agent cannot cite text that isn't there. What's accepted stays open to review by the people accountable for the result, and what survives becomes part of the corpus itself.
 
-**Findings live on the corpus.** Accepted findings are filed as annotations, anchored to the passage that proves them - not a report about your sources or logs of tool calls. And because a finding is part of the corpus, filing one is something the system can react to.
+**Findings live on the corpus.** Accepted findings are durably stored as annotations anchored to the passage that proves them. And because a finding is part of the corpus, filing one is something the system can react to.
 
-**Every finding is a new event.** An annotation can alert the analyst who owns the section — or put another agent to work. The next session, human or agent, starts from work already established: what has been examined, what was skimmed, what remains untouched. Each accepted finding extends the living structure the next change is measured against — and the loop closes.
+**Every finding is a new event.** An annotation can alert the analyst who owns the section or can put another agent to work. The next session, human or agent, starts from work already established: what has been examined, what was skimmed, what remains untouched. Each accepted finding extends the living structure the next change is measured against.
 
 ## See it
 
-Demos are running now — and the best ones start from your material, not ours. Bring a few of your team's standing conclusions — memos, determinations, filed analyses — and the conversation starts where it matters: which of them rest on something that just changed.
+Demos are running now, and we're happy to start from your material. Bring a few of your team's standing conclusions — memos, determinations, filed analyses — and the conversation starts where it matters: which of them rest on something that just changed.
 
 [Get in touch](mailto:info@exeges.ai?subject=Exeges%20demo) to set one up.
 
