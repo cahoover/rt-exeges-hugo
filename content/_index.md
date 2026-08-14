@@ -33,7 +33,9 @@ Exeges maintains a loop that runs continuously over the full body of sources you
 
 ## See it
 
-Demos are running now. [Get in touch](mailto:info@exeges.ai?subject=Exeges%20demo) to see one.
+Demos are running now — and the best ones start from your material, not ours. Bring a few of your team's standing conclusions — memos, determinations, filed analyses — and the conversation starts where it matters: which of them rest on something that just changed.
+
+[Get in touch](mailto:info@exeges.ai?subject=Exeges%20demo) to set one up.
 
 Or read how the verification works: [The Verification Gate](posts/the-verification-gate/).
 
