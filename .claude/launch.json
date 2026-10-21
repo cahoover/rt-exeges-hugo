@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "hugo",
+      "runtimeExecutable": "/opt/homebrew/bin/hugo",
+      "runtimeArgs": ["server", "--port", "1313", "--bind", "127.0.0.1", "--disableFastRender", "--noHTTPCache"],
+      "port": 1313
+    },
+    {
+      "name": "prototype",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-m", "http.server", "8768", "--bind", "127.0.0.1", "--directory", "/Users/chris/research-tool/prototype"],
+      "port": 8768
+    }
+  ]
+}

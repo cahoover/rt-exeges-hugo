@@ -1,0 +1,1 @@
+<div class="scene"><div class="scene__text">{{ .Inner | markdownify }}</div><div class="scene__figure">{{ partial "figure.html" (dict "page" .Page "image" (.Get "image") "alt" (.Get "alt") "caption" (.Get "caption") "prototype" true "width" 1400) }}</div></div>

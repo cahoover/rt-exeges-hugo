@@ -1,0 +1,52 @@
+<svg viewBox="0 0 520 440" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Three pinned source versions on the left, a verification gate in the middle, and the record on the right. Two citations pass the gate into the record; one that does not check is refused.">
+  <defs>
+    <marker id="hr-dot" viewBox="0 0 8 8" refX="4" refY="4" markerWidth="6" markerHeight="6"><circle cx="4" cy="4" r="3" fill="var(--accent, #2b4fb8)"/></marker>
+  </defs>
+  <!-- pinned source versions -->
+  <g stroke="var(--rule-strong, #b9b1a0)" stroke-width="1.2" fill="var(--paper-2, #efeadf)">
+    <rect x="20" y="50" width="180" height="262" rx="3"/>
+    <rect x="30" y="62" width="180" height="262" rx="3"/>
+  </g>
+  <rect x="40" y="74" width="180" height="262" rx="3" fill="#fff" stroke="var(--ink, #16191f)" stroke-width="1.4"/>
+  <g stroke="var(--rule-strong, #b9b1a0)" stroke-width="2" stroke-linecap="round">
+    <path d="M58 98h110"/><path d="M58 114h130"/><path d="M58 130h96"/>
+    <path d="M58 210h120"/>
+    <path d="M58 262h104"/><path d="M58 318h92"/>
+  </g>
+  <rect x="52" y="146" width="150" height="44" rx="2" fill="var(--accent-wash, #e3e9f8)"/>
+  <rect x="52" y="146" width="3" height="44" fill="var(--accent, #2b4fb8)"/>
+  <g stroke="var(--accent-deep, #1b3a93)" stroke-width="2" stroke-linecap="round"><path d="M64 160h120"/><path d="M64 176h98"/></g>
+  <rect x="52" y="228" width="150" height="22" rx="2" fill="var(--seal-wash, #f4e4de)"/>
+  <rect x="52" y="228" width="3" height="22" fill="var(--seal, #a8432a)"/>
+  <path d="M64 239h116" stroke="var(--seal, #a8432a)" stroke-width="2" stroke-linecap="round" stroke-dasharray="3 4"/>
+  <rect x="52" y="280" width="150" height="22" rx="2" fill="var(--accent-wash, #e3e9f8)"/>
+  <rect x="52" y="280" width="3" height="22" fill="var(--accent, #2b4fb8)"/>
+  <path d="M64 291h108" stroke="var(--accent-deep, #1b3a93)" stroke-width="2" stroke-linecap="round"/>
+  <!-- version pin -->
+  <g transform="translate(176 60)"><rect x="0" y="0" width="38" height="20" rx="10" fill="var(--ink, #16191f)"/><text x="19" y="14" text-anchor="middle" fill="var(--paper, #f7f4ec)" class="t-pin">v3</text></g>
+  <text x="130" y="366" text-anchor="middle" class="t-label">pinned source versions</text>
+  <!-- gate -->
+  <g stroke="var(--ink, #16191f)" stroke-width="1.6"><path d="M286 54v312"/><path d="M296 54v312"/></g>
+  <text x="291" y="392" text-anchor="middle" class="t-label">the gate</text>
+  <!-- the record -->
+  <rect x="350" y="50" width="150" height="320" rx="3" fill="var(--paper-2, #efeadf)" stroke="var(--ink, #16191f)" stroke-width="1.4"/>
+  <path d="M350 86h150" stroke="var(--ink, #16191f)" stroke-width="1"/>
+  <text x="366" y="74" class="t-strong">the record</text>
+  <g>
+    <rect x="366" y="112" width="8" height="8" fill="var(--accent, #2b4fb8)"/><path d="M382 116h92" stroke="var(--ink-2, #434954)" stroke-width="2" stroke-linecap="round"/><path d="M382 128h60" stroke="var(--rule-strong, #b9b1a0)" stroke-width="2" stroke-linecap="round"/>
+    <rect x="366" y="164" width="8" height="8" fill="var(--accent, #2b4fb8)"/><path d="M382 168h100" stroke="var(--ink-2, #434954)" stroke-width="2" stroke-linecap="round"/><path d="M382 180h72" stroke="var(--rule-strong, #b9b1a0)" stroke-width="2" stroke-linecap="round"/>
+    <rect x="366" y="216" width="8" height="8" fill="var(--accent, #2b4fb8)"/><path d="M382 220h80" stroke="var(--ink-2, #434954)" stroke-width="2" stroke-linecap="round"/><path d="M382 232h96" stroke="var(--rule-strong, #b9b1a0)" stroke-width="2" stroke-linecap="round"/>
+    <rect x="366" y="283" width="8" height="8" fill="var(--accent, #2b4fb8)"/><path d="M382 287h88" stroke="var(--ink-2, #434954)" stroke-width="2" stroke-linecap="round"/><path d="M382 299h56" stroke="var(--rule-strong, #b9b1a0)" stroke-width="2" stroke-linecap="round"/>
+    <rect x="366" y="335" width="8" height="8" fill="var(--rule-strong, #b9b1a0)"/><path d="M382 339h70" stroke="var(--rule-strong, #b9b1a0)" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  <!-- connectors: two checked, one refused -->
+  <g fill="none" stroke="var(--accent, #2b4fb8)" stroke-width="1.6" class="draw">
+    <path d="M204 168 C 250 168, 250 168, 286 168 L 296 168 C 330 168, 330 168, 366 168"/>
+    <path d="M204 291 C 250 291, 250 287, 286 287 L 296 287 C 330 287, 330 287, 366 287"/>
+  </g>
+  <g><circle cx="291" cy="168" r="9" fill="var(--paper, #f7f4ec)" stroke="var(--ok, #2f7a4f)" stroke-width="1.6"/><path d="M287 168l3 3 5-6" fill="none" stroke="var(--ok, #2f7a4f)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></g>
+  <g><circle cx="291" cy="287" r="9" fill="var(--paper, #f7f4ec)" stroke="var(--ok, #2f7a4f)" stroke-width="1.6"/><path d="M287 287l3 3 5-6" fill="none" stroke="var(--ok, #2f7a4f)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></g>
+  <path d="M204 239 C 240 239, 250 239, 280 239" fill="none" stroke="var(--seal, #a8432a)" stroke-width="1.6" stroke-dasharray="3 4" class="draw"/>
+  <g><circle cx="291" cy="239" r="9" fill="var(--paper, #f7f4ec)" stroke="var(--seal, #a8432a)" stroke-width="1.6"/><path d="M287.5 235.5l7 7m0-7l-7 7" stroke="var(--seal, #a8432a)" stroke-width="1.8" stroke-linecap="round"/></g>
+  <text x="318" y="243" class="t-seal">refused</text>
+</svg>

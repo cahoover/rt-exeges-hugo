@@ -1,0 +1,31 @@
+<svg viewBox="0 0 420 290" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="fk-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10z" fill="var(--ink-2, #434954)"/></marker>
+  </defs>
+  <circle cx="70" cy="140" r="6" fill="var(--ink, #16191f)"/>
+  <text x="58" y="136" text-anchor="end" class="t-label">history</text>
+  <text x="58" y="150" text-anchor="end" class="t-label">is needed</text>
+  <!-- branch 1: re-run -->
+  <path d="M76 140 C 120 140, 110 70, 150 70 L 236 70" fill="none" stroke="var(--ink-2, #434954)" stroke-width="1.6" marker-end="url(#fk-arrow)"/>
+  <text x="150" y="56" class="t-label">re-run the AI</text>
+  <g stroke-width="1.4" fill="#fff">
+    <rect x="254" y="50" width="60" height="40" rx="3" stroke="var(--rule-strong, #b9b1a0)" stroke-dasharray="3 3"/>
+    <rect x="272" y="42" width="60" height="40" rx="3" stroke="var(--rule-strong, #b9b1a0)" stroke-dasharray="3 3"/>
+    <rect x="290" y="34" width="60" height="40" rx="3" stroke="var(--seal, #a8432a)"/>
+  </g>
+  <text x="302" y="108" text-anchor="middle" class="t-seal">history changes</text>
+  <text x="302" y="122" text-anchor="middle" class="t-seal">under the auditor</text>
+  <!-- branch 2: keep -->
+  <path d="M76 140 C 120 140, 110 210, 150 210 L 236 210" fill="none" stroke="var(--ink-2, #434954)" stroke-width="1.6" marker-end="url(#fk-arrow)"/>
+  <text x="228" y="190" text-anchor="end" class="t-label">keep every output</text>
+  <text x="228" y="204" text-anchor="end" class="t-label">with its evidence</text>
+  <rect x="250" y="174" width="110" height="72" rx="3" fill="var(--paper-2, #efeadf)" stroke="var(--ink, #16191f)" stroke-width="1.4"/>
+  <path d="M250 196h110" stroke="var(--ink, #16191f)" stroke-width="1"/>
+  <text x="305" y="190" text-anchor="middle" class="t-strong">the record</text>
+  <g stroke-linecap="round" stroke-width="2">
+    <rect x="262" y="206" width="6" height="6" fill="var(--accent, #2b4fb8)"/><path d="M274 209h66" stroke="var(--ink-2, #434954)"/>
+    <rect x="262" y="224" width="6" height="6" fill="var(--accent, #2b4fb8)"/><path d="M274 227h48" stroke="var(--ink-2, #434954)"/>
+  </g>
+  <g><circle cx="244" cy="210" r="8" fill="var(--paper, #f7f4ec)" stroke="var(--ok, #2f7a4f)" stroke-width="1.4"/><path d="M240.5 210l2.5 2.5 4.5-5" fill="none" stroke="var(--ok, #2f7a4f)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></g>
+  <text x="305" y="270" text-anchor="middle" class="t-label">checked at the moment of writing</text>
+</svg>

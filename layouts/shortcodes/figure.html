@@ -1,0 +1,5 @@
+{{- $img := resources.Get (printf "images/%s" (.Get "image")) -}}
+{{- $w := int (.Get "width" | default 1400) -}}
+{{- $png := $img.Resize (printf "%dx q90" $w) -}}
+{{- $webp := $img.Resize (printf "%dx webp q85" $w) -}}
+<figure class="figure{{ with .Get "class" }} {{ . }}{{ end }}"><div class="figure__frame figure__frame--bar"><picture><source type="image/webp" srcset="{{ $webp.RelPermalink }}"><img src="{{ $png.RelPermalink }}" width="{{ $png.Width }}" height="{{ $png.Height }}" alt="{{ .Get "alt" }}"></picture></div>{{ with .Get "caption" }}<figcaption class="caption">{{ if $.Get "prototype" }}<span class="tag">Prototype</span>{{ end }}{{ . }}</figcaption>{{ end }}</figure>

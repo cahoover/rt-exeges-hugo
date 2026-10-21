@@ -1,66 +1,9 @@
 {{ define "main" }}
-<section class="posts-list">
-  <header>
-    <h1>{{ .Title }}</h1>
-    <p class="posts-list__filter">Filter by <a href="{{ "tags" | relURL }}">tags</a></p>
-  </header>
-
-  {{ with .Content }}
-    <div class="posts-list__content">
-      {{- . -}}
-    </div>
-  {{ end }}
-
-  <div class="posts-list__grid">
-    {{ range .Paginator.Pages }}
-      <div class="posts-list__item">
-        <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 02, 2006" }}</time>
-        <a href="{{ .Permalink }}">{{ .Title }}</a>
-      </div>
-    {{ end }}
+<section class="post-list">
+  <div class="wrap">
+    <header class="post-list__head"><h1>{{ .Title }}</h1>{{ with .Content }}<div class="prose">{{ . }}</div>{{ end }}<p class="meta">Filter by <a href="/tags/">tag</a></p></header>
+    {{ partial "post-cards.html" (.Paginate .Pages) }}
+    {{ partial "pagination.html" . }}
   </div>
-
-  {{ partial "pagination.html" . }}
 </section>
-
-<style>
-  .posts-list header h1 {
-    margin-bottom: 0.25em;
-  }
-
-  .posts-list__filter {
-    font-size: 0.9em;
-    opacity: 0.7;
-    margin-bottom: 2em;
-  }
-
-  .posts-list__filter a {
-    text-decoration: underline;
-  }
-
-  .posts-list__grid {
-    display: grid;
-    grid-template-columns: auto 1fr;
-    gap: 0.5em 1.5em;
-    align-items: baseline;
-  }
-
-  .posts-list__item {
-    display: contents;
-  }
-
-  .posts-list__item time {
-    font-size: 0.85em;
-    opacity: 0.6;
-    white-space: nowrap;
-  }
-
-  .posts-list__item a {
-    text-decoration: none;
-  }
-
-  .posts-list__item a:hover {
-    text-decoration: underline;
-  }
-</style>
 {{ end }}

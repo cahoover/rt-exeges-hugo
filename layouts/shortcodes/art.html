@@ -1,0 +1,2 @@
+{{- $name := .Get "name" -}}
+<div class="art art--{{ $name }}{{ with .Get "class" }} {{ . }}{{ end }}" role="img" aria-label="{{ .Get "alt" }}">{{ (resources.Get (printf "svg/%s.svg" $name)).Content | safeHTML }}</div>

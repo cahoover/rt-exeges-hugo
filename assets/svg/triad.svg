@@ -1,0 +1,41 @@
+<svg viewBox="0 0 820 330" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="tr-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="var(--ink-2, #434954)"/></marker>
+  </defs>
+  <!-- assess -->
+  <circle cx="104" cy="150" r="64" fill="#fff" stroke="var(--ink, #16191f)" stroke-width="1.4"/>
+  <text x="104" y="147" text-anchor="middle" class="t-title">Assess</text>
+  <text x="104" y="168" text-anchor="middle" class="t-label">a judgment, signed</text>
+  <!-- monitor -->
+  <circle cx="716" cy="150" r="64" fill="#fff" stroke="var(--ink, #16191f)" stroke-width="1.4"/>
+  <text x="716" y="147" text-anchor="middle" class="t-title">Monitor</text>
+  <text x="716" y="168" text-anchor="middle" class="t-label">a new version lands</text>
+  <!-- the record -->
+  <rect x="300" y="70" width="220" height="160" rx="4" fill="var(--paper-2, #efeadf)" stroke="var(--ink, #16191f)" stroke-width="1.6"/>
+  <path d="M300 104h220" stroke="var(--ink, #16191f)" stroke-width="1"/>
+  <text x="410" y="94" text-anchor="middle" class="t-title">the record</text>
+  <g stroke-linecap="round" stroke-width="2">
+    <rect x="322" y="124" width="7" height="7" fill="var(--accent, #2b4fb8)"/><path d="M336 127.5h150" stroke="var(--ink-2, #434954)"/>
+    <rect x="322" y="150" width="7" height="7" fill="var(--accent, #2b4fb8)"/><path d="M336 153.5h110" stroke="var(--ink-2, #434954)"/>
+    <rect x="322" y="176" width="7" height="7" fill="var(--accent, #2b4fb8)"/><path d="M336 179.5h164" stroke="var(--ink-2, #434954)"/>
+    <rect x="322" y="202" width="7" height="7" fill="var(--rule-strong, #b9b1a0)"/><path d="M336 205.5h90" stroke="var(--rule-strong, #b9b1a0)"/>
+  </g>
+  <!-- assess -> record -->
+  <path d="M172 130 L 288 130" fill="none" stroke="var(--ink-2, #434954)" stroke-width="1.6" marker-end="url(#tr-arrow)"/>
+  <text x="232" y="110" text-anchor="middle" class="t-label">the position,</text>
+  <text x="232" y="124" text-anchor="middle" class="t-label">with its reasons</text>
+  <!-- monitor -> record -->
+  <path d="M648 130 L 532 130" fill="none" stroke="var(--ink-2, #434954)" stroke-width="1.6" marker-end="url(#tr-arrow)"/>
+  <text x="588" y="110" text-anchor="middle" class="t-label">every difference,</text>
+  <text x="588" y="124" text-anchor="middle" class="t-label">mapped</text>
+  <!-- record -> monitor: what rested on the change -->
+  <path d="M520 190 L 644 190" fill="none" stroke="var(--accent, #2b4fb8)" stroke-width="1.6" marker-end="url(#tr-arrow)"/>
+  <text x="588" y="212" text-anchor="middle" class="t-label">which judgments</text>
+  <text x="588" y="226" text-anchor="middle" class="t-label">rested on it</text>
+  <!-- return: listed for review -->
+  <path d="M716 214 C 716 292, 104 292, 104 218" fill="none" stroke="var(--accent, #2b4fb8)" stroke-width="1.6" stroke-dasharray="5 5" marker-end="url(#tr-arrow)"/>
+  <text x="410" y="312" text-anchor="middle" class="t-label t-accent">listed for review, within the scope you declared</text>
+  <!-- the gate, at the record's edges -->
+  <g><circle cx="292" cy="130" r="8" fill="var(--paper, #f7f4ec)" stroke="var(--ok, #2f7a4f)" stroke-width="1.4"/><path d="M288.5 130l2.5 2.5 4.5-5" fill="none" stroke="var(--ok, #2f7a4f)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></g>
+  <g><circle cx="528" cy="130" r="8" fill="var(--paper, #f7f4ec)" stroke="var(--ok, #2f7a4f)" stroke-width="1.4"/><path d="M524.5 130l2.5 2.5 4.5-5" fill="none" stroke="var(--ok, #2f7a4f)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></g>
+</svg>

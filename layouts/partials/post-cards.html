@@ -1,0 +1,8 @@
+<ul class="post-cards">
+{{ range .Pages }}
+  <li class="post-card">
+    <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 January 2006" }}</time>
+    <div><h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3><p>{{ .Summary | plainify | truncate 180 }}</p></div>
+  </li>
+{{ end }}
+</ul>

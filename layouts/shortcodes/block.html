@@ -1,0 +1,2 @@
+{{- $art := .Get "art" -}}
+<div class="block{{ if $art }} block--wide{{ end }}">{{ if $art }}<div class="block__art" aria-hidden="true">{{ (resources.Get (printf "svg/%s.svg" $art)).Content | safeHTML }}</div><div class="block__body">{{ end }}{{ with .Get "icon" }}{{ partial "icon.html" . }}{{ end }}{{ .Inner | markdownify }}{{ if $art }}</div>{{ end }}</div>

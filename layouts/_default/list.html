@@ -1,0 +1,14 @@
+{{ define "main" }}
+<section class="post-list">
+  <div class="wrap">
+    <header class="post-list__head"><h1>{{ .Title }}</h1>{{ with .Content }}<div class="prose">{{ . }}</div>{{ end }}</header>
+    {{ $pages := .Pages }}{{ if .IsHome }}{{ $pages = .Site.RegularPages }}{{ end }}
+    {{ if eq .Kind "taxonomy" }}
+      <ul class="tags">{{ range .Pages }}<li><a href="{{ .RelPermalink }}">{{ .Title }} ({{ len .Pages }})</a></li>{{ end }}</ul>
+    {{ else }}
+      {{ partial "post-cards.html" (.Paginate $pages) }}
+      {{ partial "pagination.html" . }}
+    {{ end }}
+  </div>
+</section>
+{{ end }}

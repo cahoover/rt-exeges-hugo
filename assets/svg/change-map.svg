@@ -1,0 +1,64 @@
+<svg viewBox="0 0 560 400" xmlns="http://www.w3.org/2000/svg">
+  <text x="100" y="26" text-anchor="middle" class="t-strong">previous version</text>
+  <text x="330" y="26" text-anchor="middle" class="t-strong">new version</text>
+  <text x="490" y="26" text-anchor="middle" class="t-strong">judgments</text>
+  <!-- previous version sections -->
+  <g fill="#fff" stroke="var(--rule-strong, #b9b1a0)" stroke-width="1.2">
+    <rect x="30" y="44" width="140" height="40" rx="2"/>
+    <rect x="30" y="92" width="140" height="56" rx="2"/>
+    <rect x="30" y="156" width="140" height="40" rx="2"/>
+    <rect x="30" y="204" width="140" height="48" rx="2"/>
+    <rect x="30" y="260" width="140" height="40" rx="2"/>
+    <rect x="30" y="308" width="140" height="56" rx="2"/>
+  </g>
+  <!-- new version sections; §3 changed, §4 moved -->
+  <g fill="#fff" stroke="var(--rule-strong, #b9b1a0)" stroke-width="1.2">
+    <rect x="260" y="44" width="140" height="40" rx="2"/>
+    <rect x="260" y="92" width="140" height="56" rx="2"/>
+    <rect x="260" y="236" width="140" height="48" rx="2"/>
+    <rect x="260" y="292" width="140" height="40" rx="2"/>
+    <rect x="260" y="340" width="140" height="56" rx="2"/>
+  </g>
+  <rect x="260" y="156" width="140" height="72" rx="2" fill="var(--accent-wash, #e3e9f8)" stroke="var(--accent, #2b4fb8)" stroke-width="1.6"/>
+  <rect x="260" y="156" width="4" height="72" fill="var(--accent, #2b4fb8)"/>
+  <!-- section text lines -->
+  <g stroke="var(--rule-strong, #b9b1a0)" stroke-width="2" stroke-linecap="round">
+    <path d="M44 58h90"/><path d="M44 72h60"/>
+    <path d="M44 106h100"/><path d="M44 120h80"/><path d="M44 134h96"/>
+    <path d="M44 170h88"/><path d="M44 184h70"/>
+    <path d="M44 218h100"/><path d="M44 232h64"/>
+    <path d="M44 274h92"/><path d="M44 288h50"/>
+    <path d="M44 322h100"/><path d="M44 336h84"/><path d="M44 350h60"/>
+    <path d="M274 58h90"/><path d="M274 72h60"/>
+    <path d="M274 106h100"/><path d="M274 120h80"/><path d="M274 134h96"/>
+    <path d="M274 250h100"/><path d="M274 264h64"/>
+    <path d="M274 306h92"/><path d="M274 320h50"/>
+    <path d="M274 354h100"/><path d="M274 368h84"/><path d="M274 382h60"/>
+  </g>
+  <g stroke="var(--accent-deep, #1b3a93)" stroke-width="2" stroke-linecap="round">
+    <path d="M276 170h88"/><path d="M276 184h108"/><path d="M276 198h70"/><path d="M276 212h96"/>
+  </g>
+  <!-- alignment lines -->
+  <g stroke="var(--rule-strong, #b9b1a0)" stroke-width="1" stroke-dasharray="3 3">
+    <path d="M170 64 L260 64"/><path d="M170 120 L260 120"/><path d="M170 228 L260 260"/><path d="M170 280 L260 312"/><path d="M170 336 L260 368"/>
+  </g>
+  <path d="M170 176 L260 192" stroke="var(--accent, #2b4fb8)" stroke-width="1.6"/>
+  <circle cx="215" cy="184" r="9" fill="var(--paper, #f7f4ec)" stroke="var(--accent, #2b4fb8)" stroke-width="1.4"/>
+  <text x="215" y="188" text-anchor="middle" class="t-accent t-small">Δ</text>
+  <!-- judgments -->
+  <g fill="none" stroke="var(--accent, #2b4fb8)" stroke-width="1.4">
+    <path d="M400 192 C 420 192, 420 100, 440 100"/>
+    <path d="M400 192 C 420 192, 420 192, 440 192"/>
+    <path d="M400 192 C 420 192, 420 284, 440 284"/>
+  </g>
+  <g>
+    <rect x="440" y="80" width="100" height="40" rx="3" fill="#fff" stroke="var(--ok, #2f7a4f)" stroke-width="1.4"/>
+    <circle cx="456" cy="100" r="5" fill="var(--ok, #2f7a4f)"/><text x="470" y="104" class="t-strong">carried</text>
+    <rect x="440" y="172" width="100" height="40" rx="3" fill="#fff" stroke="var(--warn, #9a6a12)" stroke-width="1.4"/>
+    <circle cx="456" cy="192" r="5" fill="var(--warn, #9a6a12)"/><text x="470" y="196" class="t-strong">in doubt</text>
+    <rect x="440" y="264" width="100" height="40" rx="3" fill="#fff" stroke="var(--accent, #2b4fb8)" stroke-width="1.4"/>
+    <circle cx="456" cy="284" r="5" fill="var(--accent, #2b4fb8)"/><text x="470" y="288" class="t-strong">for review</text>
+  </g>
+  <text x="490" y="340" text-anchor="middle" class="t-label">resting on the</text>
+  <text x="490" y="354" text-anchor="middle" class="t-label">changed passages</text>
+</svg>

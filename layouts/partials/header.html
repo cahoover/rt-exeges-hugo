@@ -1,0 +1,16 @@
+<header class="site-header">
+  <div class="wrap site-header__inner">
+    <a class="wordmark" href="/" aria-label="Exeges home">
+      {{ partial "mark.html" . }}
+      <span>Exeges</span>
+    </a>
+    <nav class="site-nav" aria-label="Site">
+      {{ $current := . }}
+      {{ range .Site.Menus.main }}
+        {{ $active := or ($current.IsMenuCurrent "main" .) ($current.HasMenuCurrent "main" .) (and $current.IsHome (eq .URL "/")) }}
+        {{ if and (not $active) (ne .URL "/") }}{{ $active = hasPrefix $current.RelPermalink .URL }}{{ end }}
+        <a href="{{ .URL }}"{{ if $active }} aria-current="page"{{ end }}>{{ .Name }}</a>
+      {{ end }}
+    </nav>
+  </div>
+</header>
