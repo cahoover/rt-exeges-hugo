@@ -1,9 +1,9 @@
 ---
 title: "About Exeges"
 ---
-AI made analysis cheap, and in doing so made trust the scarce asset.  
+AI made analysis cheap, and in doing so made trust the scarce asset.
 
-Value is now in a layer where work is retained and compounds. AI analysis is retained and connected to source material with durable annotations, verified at write time, that survive hostile review and let the next analysis start from what's already known. 
+Value is now in a layer where work is retained and compounds: AI analysis and human judgment kept together, anchored to the source versions they rest on, checked at the moment of writing, open to review by the people accountable for the result, and still answerable years later. That layer is the record, and the record is the customer's own.
 
 ## Who it's for
 

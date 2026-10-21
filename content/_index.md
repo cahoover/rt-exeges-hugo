@@ -1,42 +1,60 @@
 ---
 title: "Exeges"
 ---
-Compliance and legal teams are starting to use AI to read regulatory filings, contracts, and legislation, but when an auditor or opposing counsel asks, "Why did you act?" a chat transcript is not an answer. Neither is an agent's memory log.
+# Nothing enters the record unverified.
 
-Exeges makes AI document analysis audit-ready. Every finding, whether filed by an AI agent or a human analyst, must be anchored to the source passage it cites. Agent findings are checked against the source text before they are accepted using a deterministic comparison against the document's bytes. An agent cannot cite text that isn't there.
+**The trust layer for AI knowledge work in regulated industries.**
 
-A compliance analyst opens Exeges Monday morning to a queue of verified findings on Friday's Fed rule change, each already defensible and added to the shared record every future analysis starts from. When a regulator asks why a decision was made, the answer replays claim by claim back to source text. 
+Compliance, regulatory and legal teams answer questions whose answers are roll-ups of roll-ups. *Are we compliant? Is this position still sound? What changed, and does it touch us?* Each answer rests on sub-answers, each sub-answer rests on evidence, and the evidence keeps moving: a regulation is amended, a guidance is reissued, a contract is renegotiated, one of your own procedures is revised.
+
+## Paid for in human eyes
+
+Assessing those questions, and monitoring the evidence under them, has always been paid for in human eyes: a consultant to draft the interpretation, a lead to judge and sign, a reviewer to check, and then all of it again on every change.
+
+AI made both cheap. More material examined, revisited more often, cases covered that were too expensive to analyze before.
+
+What AI did not make cheap is accountability. A person still signs the position, and the signature carries the weight. When an auditor or a regulator asks *"why did you act?"*, a chat transcript is not an answer. Neither is an agent's memory log.
+
+So the constraint moved. The scarce thing is no longer producing an assessment. It is keeping track of what was assessed, on what evidence, by whom, as of when, so that a person can sign at machine volume. That is the record.
+
+## The record is what you own
+
+Exeges keeps the record: every source version your team relies on, every passage cited, every judgment pinned to the passage that supports it, every position built on those judgments, and every change to any of them. Complete within its declared scope, and clear about what it does not hold.
+
+Three things make it a record rather than a pile of notes.
+
+**Nothing enters it unverified.** A finding, whether filed by an AI agent or by a person, must carry the passage it cites, and that citation is checked against the pinned version of the source at the moment of writing. A citation that does not check is refused, not flagged later. An agent cannot cite text that isn't there. How the check works: [The Verification Gate](posts/the-verification-gate/).
+
+**It is anchored to versions, so it survives change.** When a source changes, the record works out which judgments rested on what moved and lists them for review. Where it cannot compare the old text with the new, a judgment reads *in doubt* rather than quietly surviving. The held position stays on record until a person changes it.
+
+**It is yours.** The record is kept as ordinary files your team could take with it. It is designed so that another party, a client, a successor, a regulator, can inspect the evidence, the reasoning and the history and record their own acceptance, without depending on our running system.
+
+## Assess, then monitor
+
+**Assess.** Bring text, numbers, calculations and relationships together into one inspectable basis for a judgment. A named holder signs the position; the reasons, the rejected alternative and what would change the call stay attached. Two people who read the same passage differently are both on the record, and the question reads *disputed* until one interpretation is chosen.
+
+**Monitor.** A new version lands. Every difference is mapped section by section, and the judgments resting on the changed passages are listed for review, within the scope you declared. What an agent finds about the change does not go straight into the record: it goes through the gate, then to the person accountable for the result.
+
+A compliance lead opens Exeges on Monday morning to find that a standard her team assessed against changed on Friday. She sees the three positions that rested on the changed passages, the evidence each cited, who signed them and when. Two still stand. One is now a judgment about text nobody uses, and she says so, on the record, with her name on it.
 
 ## How today's systems fall short
 
 **Analyst with a chat window** is the system most teams actually run. The output can be excellent, and that's what makes it dangerous. Nothing about it scales except the volume: every finding is re-derived from scratch, no one else can open the session it came from, and the citation was never checked against the source. Six months on, the record of why is a recollection.
 
-**Research platforms** merge a dozen sources into a strong synthesis, but that synthesis is ephemeral: gone when the tab closes. Agent-governance platforms log every step an agent takes — tool calls, approval gates, tamper-evident audit trails — but their execution log records what the agent *did*, not whether its findings survive the evidence.
+**Research platforms** merge a dozen sources into a strong synthesis, but that synthesis is ephemeral: gone when the tab closes. **Agent-governance platforms** log every step an agent takes, tool calls, approval gates, tamper-evident audit trails, but their execution log records what the agent *did*, not whether its findings survive the evidence.
 
-**Agent-memory or log platforms** record the agent's diary: what it came to believe, in its own words, unverified. This diary can't tell you what the agent *ought* to have known, or where what it thought was true was hallucinated, or quietly parted ways with the evidence, or was based on obsolete information.
+**Agent-memory or log platforms** record the agent's diary: what it came to believe, in its own words, unverified. This diary can't tell you what the agent *ought* to have known, or where what it thought was true was hallucinated, quietly parted ways with the evidence, or rested on obsolete information.
 
-Today's platforms were built for an era when finding answers was the expensive part of knowledge work. AI ended that era. Plausible answers are cheap now; trust and durability are the new scarcity. 
+Today's platforms were built for an era when finding answers was the expensive part of knowledge work. AI ended that era. Plausible answers are cheap now; a record you can sign is the new scarcity.
 
-## What makes Exeges different
+## Why a record, and not a faster search
 
-Exeges maintains a loop that runs continuously over the full body of sources your organization works from.
-
-**Your corpus is a living structure.** Exeges models how sources impact each other, including versions, references, amendments, dependencies. Every relationship is clickable through to the text that proves it. And the structure moves: new versions, new documents, new data, arriving all the time. That structure is what change is measured against.
-
-**Change is flagged on arrival.** A new version lands — a filing, a regulation, a contract. Every difference is flagged automatically, section by section. Changes in sections of interest trigger an agent to investigate, but what the investigation finds doesn't go straight into the record.
-
-**Nothing enters the record unverified.** Agent findings are checked against source excerpts before they are accepted; an agent cannot cite text that isn't there. What's accepted stays open to review by the people accountable for the result, and what survives becomes part of the corpus itself.
-
-**Findings live on the corpus.** Accepted findings are durably stored as annotations anchored to the passage that proves them. And because a finding is part of the corpus, filing one is something the system can react to.
-
-**Every finding is a new event.** An annotation can alert the analyst who owns the section or can put another agent to work. The next session, human or agent, starts from work already established: what has been examined, what was skimmed, what remains untouched. Each accepted finding extends the living structure the next change is measured against.
+Any tool can get faster at assessing and monitoring, and that race has no finish line. What a tool cannot bolt on afterwards is a record, because of a fork it cannot escape. Either it re-runs the AI whenever history is needed, and history changes under the auditor; or it keeps every output with its evidence attached and checked at the moment of writing, in which case it has built the record. We built the record first.
 
 ## See it
 
-Demos are running now, and we're happy to start from your material. Bring a few of your team's standing conclusions — memos, determinations, filed analyses — and the conversation starts where it matters: which of them rest on something that just changed.
+Demos are running now, on a fictional compliance review with real regulatory text. We're also happy to start from your material: bring a few of your team's standing conclusions, memos, determinations, filed analyses, and the conversation starts where it matters, which of them rest on something that has since changed.
 
 [Get in touch](mailto:info@exeges.ai?subject=Exeges%20demo) to set one up.
 
-Or read how the verification works: [The Verification Gate](posts/the-verification-gate/).
-
-More: [about Exeges](/about/) · [architecture](/architecture/) · [posts](/posts/)
+More: [how it works](/features/) · [about Exeges](/about/) · [architecture](/architecture/) · [posts](/posts/)
