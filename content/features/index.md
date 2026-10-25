@@ -10,9 +10,13 @@ aliases: ["/architecture/"]
 </div>
 <div class="prose">
 
-**Exeges keeps every source you rely on in one versioned place, and records every conclusion your team reaches anchored to the passage that supports it.** Documents, datasets, filings, and transcripts are ingested as versioned sources with structure intact. 
+**Exeges tracks and versions every source you rely on, records every conclusion your team reaches along with supporting evidence, and keeps a replayable history of every decision and the reasoning behind it, including disagreements.**  
 
-Ask a question in plain language and get an answer drawn from the whole set of documents and data. Turn an agent loose on a section and let it investigate.
+Evaluate a position with AI assistance. Ask a question in plain language and get an answer drawn from the whole set of documents and data. Turn agents loose on a section and let them investigate and offer analysis.
+
+Put supporting material and associated positions on the record. Automatically monitor for change in anything your positions depend on, and review AI generated impact analysis.
+
+Keep a durable, auditable, portable record of everything - in regular files that can be stored anywhere.
 
 </div>
 {{< /section >}}
