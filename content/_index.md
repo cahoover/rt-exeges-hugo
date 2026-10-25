@@ -24,7 +24,7 @@ Exeges is AI for compliance teams. It tracks how source material informs positio
 {{< scene-step number="01" label="Assess." image="prototype-aster-two-readings.png" alt="An interpretation card in the Exeges inquiry prototype reading No interpretation accepted, assessment unresolved, two views recorded and different. Under Candidate readings and disagreement, two statements dated 2026-10-13: the client compliance lead favours evaluating the paper-log alternative, citing the FDA guidance and a risk assessment; the consultant says enforcement discretion does not settle adequacy, citing the regulation, the guidance and the same risk assessment." caption="Two readings of one requirement, each with its holder, date, reasons and the passages it cites, and the requirement marked unresolved rather than settled by whoever wrote last." >}}
 Acme's roller skate product is being upgraded, and the compliance team flags five rules in the enhanced-skate regs that might apply. 
 
-An Exeges AI agent evaluates the rules and drafts an interpretation. A third-party enhanced-garment specialist reviews the drafts, noting that that noise regulations also apply (sonic booms). Exeges tracks each change and the reasoning behind it.
+An Exeges AI agent evaluates the rules and drafts an interpretation. A third-party enhanced-garment specialist reviews the drafts, noting that noise regulations also apply (sonic booms). Exeges tracks each change and the reasoning behind it.
 
 Acme's compliance lead disagrees with one position, arguing that the parachute clause is actually not triggered. Exeges keeps both positions and **marks the rule "disputed."**
 {{< /scene-step >}}
@@ -50,7 +50,7 @@ Exeges tracks all evaluations across all products, so they pull up the position'
 
 ## Built for the process you already have
 
-Workflows don't usually live in one system. The program office writes the fix, legal reads what the rule requires, budget decides whether it's funded, and one coordinator answers for the whole. Each stop has its own tools and its own output: a memo, a spreadsheet, a signed PDF. Exeges doesn't ask anyone to change tools. What each department produces is a source like any other: versioned, and anchored to.
+Workflows don't usually live in one system. The program office writes the fix, legal reads what the rule requires, budget decides whether it's funded, and one coordinator answers for the whole. Each stop has its own tools and its own output: a memo, a spreadsheet, a signed PDF. Exeges doesn't ask anyone to change tools. What each department produces is a source like any other: versioned with anchored references.
 
 </div>
 {{< /section >}}

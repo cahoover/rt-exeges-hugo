@@ -48,11 +48,11 @@ Five kinds of source converge on one gridded, versioned source. On the right, ve
 
 ### References point to the grid
 
-References can cite any point within a documents or data. These can refer to anything: a person, a number, a summary, an image. They can also connect process to source material: a review due by a date, or a position with its reasons. A finding can cite another finding, so the reasoning behind a position is on the record and searchable.
+References can cite any point within a document or data. These can refer to anything: a person, a number, a summary, an image. They can also connect a process to source material: a review due by a date, or a position with its reasons. A finding can cite another finding, so the reasoning behind a position is on the record and searchable.
 
 </div>
 {{< plate name="references" num="Image 2" alt="A document, version 3 filed 2 March 2026, with six numbered findings around it, each joined by a fine line to one exact spot on the page: an entity, a review due by a date, an amendment, a position, a measure of 4.2 million dollars, and a summary." >}}
-Six findings on version 3. Numbers 1, 3, 5 and 6 were produced by the platform; 2 and 4 were placed by a reader, and 4 cites 3. Each line ends on the one spot that supports the finding.
+Six findings on version 3. Numbers 1, 3, 5, and 6 were produced by the platform; 2 and 4 were placed by a reader, and 4 cites 3. Each line ends on the one spot that supports the finding.
 {{< /plate >}}
 </div>
 
@@ -84,7 +84,7 @@ Every reference anchored to an old version is checked against the new one. Chang
 
 </div>
 {{< plate name="version" num="Plate 4" alt="The same document, now version 4 filed 9 June 2026. Three findings are re-checked: the entity finding is badged still holds, the measure finding is badged in doubt because the cell it points to now reads 4.6 million dollars restated, and the summary finding is badged not yet checked. No finding has been moved." >}}
-Version 4 replaces version 3 and every finding is checked against it. Finding 1 still holds. Finding 5 is in doubt: the cell it points to now reads $4.6M, restated, and the finding stays where it was. Finding 6 is not yet checked.
+Version 4 replaces version 3, and every finding is checked against it. Finding 1 still holds. Finding 5 is in doubt: the cell it points to now reads $4.6M, restated, and the finding stays where it was. Finding 6 is not yet checked.
 {{< /plate >}}
 </div>
 
@@ -96,11 +96,11 @@ Version 4 replaces version 3 and every finding is checked against it. Finding 1 
 
 Creating a reference is something the system can react to: raise the section for the analyst who owns it, or put the next AI investigation to work. References help the next reader, human or agent, starts from what has already been established.
 
-Agents work the corpus through a set of MCP tools: survey it, read a document, search it, inspect a diff, list the findings on a section, file one. They read their own coverage too, what has been examined, what was skimmed, what remains untouched, so a session builds on prior work.
+Agents work the corpus through a set of MCP tools: survey it, read a document, search it, inspect a diff, list the findings on a section, file one. They read their own coverage too: what has been examined, what was skimmed, what remains untouched, so a session builds on prior work.
 
 </div>
 {{< plate name="second-reader" num="Image 5" alt="On the left, six findings left by a first session in March 2026, each joined by a faint line to its spot on the page. A second session arrives in June, follows the third finding to its spot, and adds a seventh, a position that cites the third. Two gauges below read: findings inherited, six of six; pages re-read, none of four hundred and twelve." >}}
-A second session arrives in June and starts from the six findings the first left in March. It reads them, visits one spot, and adds a seventh that cites the third. Nothing was re-derived and no page was read twice.
+A second session arrives in June and starts from the six findings the first left in March. It reads them, visits one spot, and adds a seventh that cites the third. Nothing was re-derived, and no page was read twice.
 {{< /plate >}}
 </div>
 

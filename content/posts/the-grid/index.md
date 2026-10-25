@@ -14,9 +14,9 @@ TL;DR: Working through dense material — legislation, filings, contracts — cr
 
 ## A coordinate system for documents
 
-When a document enters Exeges, every element is given a stable address. Sections, paragraphs, sentences, table cells can all be cited. A reference is a durable, addressable record that points at one of those addresses. It survives re-rendering, re-indexing, and every change in how the document is displayed.
+When a document enters Exeges, every element is given a stable address. Sections, paragraphs, sentences, and table cells can all be cited. A reference is a durable, addressable record that points to one of those addresses. It survives re-rendering, re-indexing, and every change in how the document is displayed.
 
-Because references are addressable, they can cite each other. A newer conclusion can supersede older ones; which stay in the record, retracted but replayable.
+Because references are addressable, they can cite each other. A newer conclusion can supersede older ones, which stay in the record, retracted but replayable.
 
 ## Targets and evidence play different roles
 
