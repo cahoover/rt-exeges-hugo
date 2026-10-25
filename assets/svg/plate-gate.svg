@@ -1,0 +1,108 @@
+<svg id="plate-gate" xmlns="http://www.w3.org/2000/svg" viewBox="104 72 810 478" aria-hidden="true" focusable="false">
+<style>
+#plate-gate{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
+#plate-gate .plateno{font-size:11px;letter-spacing:.08em;font-weight:500;fill:#687580}
+#plate-gate .title{font-size:22px;font-weight:500;letter-spacing:-.02em;fill:#29343C}
+#plate-gate .kind{font-size:9.5px;letter-spacing:.06em;font-weight:600;fill:#687580}
+#plate-gate .val{font-size:13px;fill:#29343C}
+#plate-gate .num{font-size:10px;font-weight:600;fill:#FFFFFF}
+#plate-gate .cap{font-size:12px;fill:#59656E}
+#plate-gate .tag{font-size:8.5px;letter-spacing:.06em;font-weight:600;fill:#59656E}
+#plate-gate .chip{font-size:9px;letter-spacing:.1em;fill:#29343C}
+#plate-gate .badge{font-size:8.5px;letter-spacing:.06em;font-weight:600}
+#plate-gate .line{fill:#DCE3E8}
+#plate-gate .head{fill:#29343C;opacity:.7}
+#plate-gate .rule{stroke:#3F60AD;stroke-width:1.2}
+#plate-gate .dot{fill:#3F60AD}
+#plate-gate .grid{stroke:#DCE3E8;stroke-width:1;fill:none}
+#plate-gate .lead{stroke-width:.9;fill:none;stroke-dasharray:1;stroke-dashoffset:0}
+#plate-gate .ring{fill:none;stroke-width:1.4;transform-box:fill-box;transform-origin:center}
+#plate-gate .ringA{stroke:#2A7A4B;opacity:1}
+#plate-gate .ringB{stroke:#A33A3A;opacity:0}
+#plate-gate .labA{transform:translateX(0);opacity:1}
+#plate-gate .labB{transform:translateX(40px);opacity:1}
+#plate-gate .lineA{stroke:#2A7A4B}
+#plate-gate .lineB{stroke:#A33A3A;opacity:0}
+#plate-gate .badgeA{opacity:1}
+#plate-gate .stampB{opacity:1}
+</style>
+  <g transform="translate(120,110)">
+    <rect x="0" y="3" width="300" height="430" rx="6" fill="#29343C" fill-opacity=".06"></rect>
+    <rect width="300" height="430" rx="6" fill="#FFFFFF" stroke="#DCE3E8" stroke-width="1"></rect>
+    <rect x="114" y="-28" width="186" height="18" rx="4" fill="#F4F7FA" stroke="#DCE3E8"></rect>
+    <text class="tag" x="122" y="-15.5">EDITION V3 · FILED 2 MAR 2026</text>
+    <rect class="head" x="28" y="34" width="150" height="9" rx="1.5"></rect>
+    <rect class="line" x="28" y="60" width="244" height="8" rx="1.5"></rect>
+    <rect class="line" x="28" y="76" width="244" height="8" rx="1.5"></rect>
+    <rect class="line" x="28" y="92" width="244" height="8" rx="1.5"></rect>
+    <rect class="line" x="28" y="108" width="150" height="8" rx="1.5"></rect>
+    <rect class="head" x="28" y="140" width="96" height="8" rx="1.5"></rect>
+    <rect class="line" x="28" y="164" width="244" height="8" rx="1.5"></rect>
+    <rect class="line" x="28" y="180" width="244" height="8" rx="1.5"></rect>
+    <rect class="line" x="28" y="196" width="110" height="8" rx="1.5"></rect>
+    <rect class="grid" x="28" y="224" width="244" height="84"></rect>
+    <line class="grid" x1="28" y1="245" x2="272" y2="245"></line>
+    <line class="grid" x1="28" y1="266" x2="272" y2="266"></line>
+    <line class="grid" x1="28" y1="287" x2="272" y2="287"></line>
+    <line class="grid" x1="128" y1="224" x2="128" y2="308"></line>
+    <line class="grid" x1="200" y1="224" x2="200" y2="308"></line>
+    <rect class="head" x="34" y="231" width="60" height="7" rx="1.5"></rect>
+    <rect class="head" x="134" y="231" width="40" height="7" rx="1.5"></rect>
+    <rect class="head" x="206" y="231" width="40" height="7" rx="1.5"></rect>
+    <rect class="line" x="34" y="252" width="70" height="7" rx="1.5"></rect>
+    <rect class="line" x="134" y="252" width="44" height="7" rx="1.5"></rect>
+    <rect class="line" x="206" y="252" width="48" height="7" rx="1.5"></rect>
+    <rect class="line" x="34" y="273" width="80" height="7" rx="1.5"></rect>
+    <rect class="line" x="134" y="273" width="40" height="7" rx="1.5"></rect>
+    <rect x="203" y="269" width="66" height="15" fill="#EDF2FB"></rect>
+    <text x="209" y="280.5" font-size="10.5" fill="#29343C">$4.2M</text>
+    <line class="rule" x1="203" y1="284.5" x2="269" y2="284.5"></line>
+    <rect class="line" x="34" y="294" width="64" height="7" rx="1.5"></rect>
+    <rect class="line" x="134" y="294" width="50" height="7" rx="1.5"></rect>
+    <rect class="line" x="206" y="294" width="36" height="7" rx="1.5"></rect>
+    <rect class="head" x="28" y="330" width="120" height="8" rx="1.5"></rect>
+    <rect class="line" x="28" y="352" width="244" height="8" rx="1.5"></rect>
+    <rect class="line" x="28" y="368" width="244" height="8" rx="1.5"></rect>
+    <rect class="line" x="28" y="384" width="244" height="8" rx="1.5"></rect>
+    <rect class="line" x="28" y="400" width="180" height="8" rx="1.5"></rect>
+  </g>
+  <circle class="ring ringA" cx="392" cy="387" r="11"></circle>
+  <circle class="ring ringB" cx="392" cy="387" r="11"></circle>
+  <circle class="dot" cx="392" cy="387" r="2.4"></circle>
+  <path class="lead lineA" d="M556 372 L392 387" pathLength="1"></path>
+  <path class="lead lineB" d="M556 458 L392 387" pathLength="1"></path>
+  <g transform="translate(560,360)">
+    <g class="labA">
+      <circle cx="10" cy="12" r="9" fill="#29343C"></circle>
+      <text class="num" x="10" y="15.5" text-anchor="middle">1</text>
+      <text class="kind" x="28" y="9">MEASURE</text>
+      <text class="val" x="28" y="27">$4.2M · FY2025</text>
+      <g transform="translate(28,36)">
+        <rect width="156" height="16" rx="3" fill="#F4F7FA" stroke="#DCE3E8" stroke-width="1"></rect>
+        <text class="chip" x="8" y="11.3">CITES “4.2” · ROW 3 · V3</text>
+      </g>
+      <g class="badgeA" transform="translate(28,60)">
+        <rect width="142" height="16" rx="4" fill="#E3F2E8" stroke="#2A7A4B"></rect>
+        <path d="M9 8.5 L12 11.5 L17 5.5" fill="none" stroke="#2A7A4B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"></path>
+        <text class="badge" x="24" y="11.3" fill="#2A7A4B">VERIFIED AT V3</text>
+      </g>
+    </g>
+  </g>
+  <g transform="translate(560,446)">
+    <g class="labB">
+      <circle cx="10" cy="12" r="9" fill="#29343C"></circle>
+      <text class="num" x="10" y="15.5" text-anchor="middle">2</text>
+      <text class="kind" x="28" y="9">MEASURE</text>
+      <text class="val" x="28" y="27">$4.8M · FY2025</text>
+      <g transform="translate(28,36)">
+        <rect width="156" height="16" rx="3" fill="#F4F7FA" stroke="#DCE3E8" stroke-width="1"></rect>
+        <text class="chip" x="8" y="11.3">CITES “4.8” · ROW 3 · V3</text>
+      </g>
+      <g class="stampB" transform="translate(28,60)">
+        <rect width="268" height="16" rx="4" fill="#FBE5E5" stroke="#A33A3A"></rect>
+        <path d="M8 5 L14 11 M14 5 L8 11" fill="none" stroke="#A33A3A" stroke-width="1.6" stroke-linecap="round"></path>
+        <text class="badge" x="22" y="11.3" fill="#A33A3A">REFUSED · TEXT NOT FOUND AT V3</text>
+      </g>
+    </g>
+  </g>
+  </svg>

@@ -12,6 +12,12 @@
       "runtimeExecutable": "python3",
       "runtimeArgs": ["-m", "http.server", "8768", "--bind", "127.0.0.1", "--directory", "/Users/chris/research-tool/prototype"],
       "port": 8768
+    },
+    {
+      "name": "hugo-1314",
+      "runtimeExecutable": "/opt/homebrew/bin/hugo",
+      "runtimeArgs": ["server", "--port", "1314", "--bind", "127.0.0.1", "--disableFastRender", "--noHTTPCache"],
+      "port": 1314
     }
   ]
 }

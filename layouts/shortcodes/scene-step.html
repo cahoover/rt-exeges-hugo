@@ -1,0 +1,6 @@
+{{- $image := .Get "image" -}}
+<section class="scene__step{{ if $image }} scene__step--shot{{ end }}" aria-labelledby="scene-step-{{ .Get "number" }}">
+  <h3 class="scene__label" id="scene-step-{{ .Get "number" }}"><span class="scene__number" aria-hidden="true">{{ .Get "number" }}</span>{{ .Get "label" }}</h3>
+  <div class="scene__body">{{ .Inner | markdownify }}</div>
+  {{- if $image }}<div class="scene__shot">{{ partial "figure.html" (dict "page" .Page "image" $image "alt" (.Get "alt") "caption" (.Get "caption") "prototype" true "width" 1000 "detail" true) }}</div>{{ end }}
+</section>

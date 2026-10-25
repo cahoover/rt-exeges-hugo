@@ -1,0 +1,5 @@
+{{- $name := .Get "name" -}}
+<figure class="plate{{ with .Get "class" }} {{ . }}{{ end }}"{{ with .Get "id" }} id="{{ . }}"{{ end }}>
+<div class="plate__frame" role="img" aria-label="{{ .Get "alt" }}">{{ (resources.Get (printf "svg/plate-%s.svg" $name)).Content | safeHTML }}</div>
+<figcaption class="plate__caption">{{ with .Get "num" }}<span class="plate__num">{{ . }}</span>{{ end }}{{ .Inner | markdownify }}</figcaption>
+</figure>

@@ -32,4 +32,4 @@ Immutability finishes the argument. Document versions in Exeges are never overwr
 
 The comparison proves that the cited words exist at the cited address in the cited version, and that the author had those exact words in hand when the claim was written. It does not prove the words *support* the conclusion. No deterministic check can adjudicate meaning.
 
-Support gets judged the way it always has been: by other readers. In Exeges that judgment lands in the same record: the typed stances, disputes, and supersessions described in [the annotation substrate](/posts/the-annotation-substrate/), each anchored and attributed like everything else.
+Support gets judged the way it always has been: by other readers. In Exeges that judgment lands in the same record: the typed stances, disputes, and supersessions described in [the grid](/posts/the-grid/), each anchored and attributed like everything else.

@@ -32,11 +32,11 @@ pagination.pagerSize = 10
     name = "How it works"
     url = "/features/"
     weight = 2
-    [[menu.main]]
-    identifier = "architecture"
-    name = "Architecture"
-    url = "/architecture/"
-    weight = 4
+  [[menu.main]]
+    identifier = "use-cases"
+    name = "Use cases"
+    url = "/use-cases/"
+    weight = 3
   [[menu.main]]
     identifier = "posts"
     name = "Posts"

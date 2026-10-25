@@ -1,112 +1,123 @@
 ---
 title: "Exeges"
 ---
-{{< hero >}}
-# Nothing enters the record unverified.
+{{< hero image="prototype-aster-requirements.png" alt="The Aster Biologics requirements review in the Exeges inquiry prototype: five requirements, each with its interpretation, client evidence, assessment and change status. One row reads Needs review since 2026-10-14; one has a disagreement recorded." caption="The requirements review for Aster Biologics. One requirement needs review because records it cites have changed; one has a recorded disagreement." >}}
+# Compliance at AI scale, with every step auditable.
 
-**The trust layer for AI knowledge work in regulated industries.**
+**Products change, policies change, and compliance changes with them. Exeges tracks what was determined, when, and why.**
 
-Compliance, regulatory and legal teams answer questions whose answers are roll-ups of roll-ups. *Are we compliant? Is this position still sound? What changed, and does it touch us?* Each answer rests on sub-answers, each sub-answer rests on evidence, and the evidence keeps moving: a regulation is amended, a guidance is reissued, a contract is renegotiated, one of your own procedures is revised.
+Compliance, regulatory, and legal teams deal with questions whose answers are only as good as the last time someone checked. *Are we compliant? Is this position still sound? What changed, and do we care?* 
+
+The moment a regulation is amended, guidance is reissued, or a PR is merged, the answers need another evaluation. Everyone is adopting AI to help, but humans remain accountable because a model can't be fired, interviewed, or subpoenaed.
+
+Exeges is AI for compliance teams. It tracks how source material informs positions, evaluates how changes to the source material impact positions, and keeps a durable history of past positions and the evidence that supported them.
 {{< /hero >}}
 
-{{< section id="paid-for-in-human-eyes" >}}
-{{< argument >}}
-## Paid for in human eyes
-
-Assessing those questions, and monitoring the evidence under them, has always been paid for in human eyes: a consultant to draft the interpretation, a lead to judge and sign, a reviewer to check, and then all of it again on every change.
-
-AI made both cheap. More material examined, revisited more often, cases covered that were too expensive to analyze before.
-
-What AI did not make cheap is accountability. A person still signs the position, and the signature carries the weight. When an auditor or a regulator asks *"why did you act?"*, a chat transcript is not an answer. Neither is an agent's memory log.
-
-So the constraint moved. The scarce thing is no longer producing an assessment. It is keeping track of what was assessed, on what evidence, by whom, as of when, so that a person can sign at machine volume. That is the record.
-{{< /argument >}}
-{{< /section >}}
-
-{{< section id="the-record-is-what-you-own" band="true" >}}
+{{< section id="one-change-three-positions" band="true" >}}
 <div class="section__head">
 
-## The record is what you own
-
-Exeges keeps the record: every source version your team relies on, every passage cited, every judgment pinned to the passage that supports it, every position built on those judgments, and every change to any of them. Complete within its declared scope, and clear about what it does not hold.
-
-Three things make it a record rather than a pile of notes.
+## Rules, evaluations, disagreements, and changes
 
 </div>
 
-{{< blocks >}}
-{{< block icon="gate" >}}
-**Nothing enters it unverified.** A finding, whether filed by an AI agent or by a person, must carry the passage it cites, and that citation is checked against the pinned version of the source at the moment of writing. A citation that does not check is refused, not flagged later. An agent cannot cite text that isn't there. How the check works: [The Verification Gate](posts/the-verification-gate/).
-{{< /block >}}
-{{< block icon="anchor" >}}
-**It is anchored to versions, so it survives change.** When a source changes, the record works out which judgments rested on what moved and lists them for review. Where it cannot compare the old text with the new, a judgment reads *in doubt* rather than quietly surviving. The held position stays on record until a person changes it.
-{{< /block >}}
-{{< block icon="portable" art="leaving" >}}
-**It is yours.** The record is kept as ordinary files your team could take with it. It is designed so that another party, a client, a successor, a regulator, can inspect the evidence, the reasoning and the history and record their own acceptance, without depending on our running system.
-{{< /block >}}
-{{< /blocks >}}
-{{< /section >}}
+{{< scene >}}
+{{< scene-step number="01" label="Assess." image="prototype-aster-two-readings.png" alt="An interpretation card in the Exeges inquiry prototype reading No interpretation accepted, assessment unresolved, two views recorded and different. Under Candidate readings and disagreement, two statements dated 2026-10-13: the client compliance lead favours evaluating the paper-log alternative, citing the FDA guidance and a risk assessment; the consultant says enforcement discretion does not settle adequacy, citing the regulation, the guidance and the same risk assessment." caption="Two readings of one requirement, each with its holder, date, reasons and the passages it cites, and the requirement marked unresolved rather than settled by whoever wrote last." >}}
+Acme's roller skate product is being upgraded, and the compliance team flags five rules in the enhanced-skate regs that might apply. 
 
-{{< section id="assess-then-monitor" >}}
-<div class="section__head">
+An Exeges AI agent evaluates the rules and drafts an interpretation. A third-party enhanced-garment specialist reviews the drafts, noting that that noise regulations also apply (sonic booms). Exeges tracks each change and the reasoning behind it.
 
-## Assess, then monitor
+Acme's compliance lead disagrees with one position, arguing that the parachute clause is actually not triggered. Exeges keeps both positions and **marks the rule "disputed."**
+{{< /scene-step >}}
 
-</div>
+{{< scene-step number="02" label="Monitor." image="prototype-aster-in-doubt.png" alt="A judgment card in the Exeges inquiry prototype under a notice reading Earlier judgment needs review: a source used for acceptance has a newer selected revision; the historical acceptance remains pinned to its original evidence. The card reads: the distribution controls described in revision 5 support the requirement, Maya Chen, client compliance lead, 2026-10-13, assessment supported, badged In doubt because its words do not appear in revision 6, effective 2026-10-14." caption="A judgment accepted against revision 5 of a procedure, listed in doubt when revision 6 arrived on 14 October. The judgment was not moved; it waits for the person who holds it." >}}
+On Friday, the government's enhanced-footwear committee rewrites its safety chapter and drops the parachute clause. 
 
-{{< art name="triad" class="triad" alt="Assess and Monitor on either side of the record. A signed position enters the record from Assess; every mapped difference enters it from Monitor; the judgments that rested on a change go back to the people accountable, listed for review." >}}
+Monday morning the compliance lead opens Exeges and sees the changes, the positions they impact, and an AI's assessment of impact.
 
-{{< twocol >}}
-{{< col >}}
-**Assess.** Bring text, numbers, calculations and relationships together into one inspectable basis for a judgment. A named holder signs the position; the reasons, the rejected alternative and what would change the call stay attached. Two people who read the same passage differently are both on the record, and the question reads *disputed* until one interpretation is chosen.
-{{< /col >}}
-{{< col >}}
-**Monitor.** A new version lands. Every difference is mapped section by section, and the judgments resting on the changed passages are listed for review, within the scope you declared. What an agent finds about the change does not go straight into the record: it goes through the gate, then to the person accountable for the result.
-{{< /col >}}
-{{< /twocol >}}
+Four positions are still valid. The disputed one no longer has a rule behind it, and she says so, on the record.
+{{< /scene-step >}}
 
-{{< scene image="prototype-aster-requirements.png" alt="The Aster Biologics requirements review in the Exeges inquiry prototype: five requirements, each with its interpretation, client evidence, assessment and change status. One row reads Needs review since 2026-10-14; one has a disagreement recorded." caption="The requirements review for Aster Biologics, a fictional customer, in the Exeges inquiry prototype. The regulatory text is real. One requirement needs review since its basis changed; one carries a recorded disagreement." >}}
-A compliance lead opens Exeges on Monday morning to find that a standard her team assessed against changed on Friday. She sees the three positions that rested on the changed passages, the evidence each cited, who signed them and when. Two still stand. One is now a judgment about text nobody uses, and she says so, on the record, with her name on it.
+{{< scene-step number="03" label="Answer for it." image="prototype-aster-record-judgment.png" alt="A dialog in the Exeges inquiry prototype titled Review evidence and record judgment, for the requirement Control of system documentation. It states the prior assessment, Supported, Maya Chen, client compliance lead, 2026-10-13, and that recording creates a new revision while the earlier judgment remains. Below are the assessment choices, a rationale field, the two pinned sources with their versions, a Recorded by field, and a confirmation that the selected revisions were reviewed." caption="Recording a new judgment on the same requirement. The prior assessment keeps its holder and date, and the new one pins the exact revisions it rests on and names who recorded it." >}}
+Months later an auditor asks why the skate was approved. The compliance team works with a lot of products, so no one remembers offhand.
+
+Exeges tracks all evaluations across all products, so they pull up the position's history: the original determination, the rule it cited, who signed it, when, and why.
+{{< /scene-step >}}
 {{< /scene >}}
 {{< /section >}}
 
-{{< section id="how-todays-systems-fall-short" band="true" >}}
+{{< section id="the-process-you-already-have" >}}
 <div class="section__head">
 
-## How today's systems fall short
+## Built for the process you already have
+
+Workflows don't usually live in one system. The program office writes the fix, legal reads what the rule requires, budget decides whether it's funded, and one coordinator answers for the whole. Each stop has its own tools and its own output: a memo, a spreadsheet, a signed PDF. Exeges doesn't ask anyone to change tools. What each department produces is a source like any other: versioned, and anchored to.
 
 </div>
+{{< /section >}}
+
+{{< section id="underneath-one-record" band="true" >}}
+<div class="section__head">
+
+## Underneath it all, one portable record
+
+"Why did we decide that five years ago, and why did it change three years later?"
+
+</div>
+<div class="record-grid">
+<ul class="record-list">
+<li>
+
+**Nothing enters it unverified.** Every reference quotes the passage it cites and is checked against the source before it is written. An agent cannot cite text that isn't there. <a class="record-list__link" href="/features/#the-gate">The gate</a>
+
+</li>
+<li>
+
+**Anchored to the line, not the title.** A position names the clause, the cell, or the second of a transcript, in the version it was read in. When that line changes, the positions resting on it are already listed. <a class="record-list__link" href="/features/#the-grid">The grid</a> · <a class="record-list__link" href="/features/#a-new-version">A new version arrives</a>
+
+</li>
+<li>
+
+**It leaves the building intact.** An auditor or a discovery team loads the record on their own installation and sees everything the original team saw, including what it skimmed or skipped. <a class="record-list__link" href="/features/#the-record-compounds">The record compounds</a>
+
+</li>
+</ul>
+<div class="record-grid__figure">
+{{< figure image="prototype-apple-filing-pair.png" prototype="true" detail="true" width="1200" alt="Two filing cards side by side in the Exeges inquiry prototype. Apple's FY2022 10-K, filed October 28, 2022, shows the Other non-cash adjustment as 111 million dollars, with the judgment built on that number quoted beneath it. Apple's FY2024 10-K, filed November 1, 2024, shows 1,006 million dollars for the same fiscal period, with the replacement judgment beneath and a note that the historical wording is preserved as recorded." caption="One number, two versions of the source. The judgment built on the FY2022 figure stays on record beside the one that replaced it when the FY2024 filing regrouped the line, each anchored to the filing it was read in." >}}
+</div>
+</div>
+{{< /section >}}
+
+{{< section id="how-todays-systems-fall-short" >}}
+<div class="section__head">
+
+## Today's systems
+
+</div>
+<p class="section__intro">None of these go away. Each is missing the same layer: the reasoning, anchored to the version of the sources it was based on.</p>
 
 {{< compare >}}
 | | What it does | Where it falls short |
 | --- | --- | --- |
-| **Analyst with a chat window** | is the system most teams actually run. The output can be excellent, and that's what makes it dangerous. | Nothing about it scales except the volume: every finding is re-derived from scratch, no one else can open the session it came from, and the citation was never checked against the source. Six months on, the record of why is a recollection. |
-| **Research platforms** | merge a dozen sources into a strong synthesis, | but that synthesis is ephemeral: gone when the tab closes. |
-| **Agent-governance platforms** | log every step an agent takes, tool calls, approval gates, tamper-evident audit trails, | but their execution log records what the agent *did*, not whether its findings survive the evidence. |
-| **Agent-memory or log platforms** | record the agent's diary: what it came to believe, in its own words, unverified. | This diary can't tell you what the agent *ought* to have known, or where what it thought was true was hallucinated, quietly parted ways with the evidence, or rested on obsolete information. |
+| **GRC and document-management platforms** | The system of record most compliance teams already own. Controls mapped to frameworks, policies under version control, attestations signed, evidence attached, changes logged. | They record status and sign-off, not reasoning or the impact of change. The regulation is a label on a mapping, not a versioned text, so a change feed can say the rule was updated but not which of your positions was based on the changed clause. |
+| **Analyst with a chat window** | The system most teams actually run. The output can be excellent, and that's what makes it dangerous. | Nothing scales except the volume: every finding is re-derived from scratch, no one else can open the session it came from, and the citation was never checked against the source. Six months on, the record of why is a recollection. |
+| **Research platforms** | They merge a dozen sources into a strong synthesis. | The synthesis is not a durable record. It is tied to no version of its sources, signed by no one, and does nothing when a source changes. |
+| **Agent-governance platforms** | Tool calls, approval gates, tamper-evident trails. Every step the agent takes is logged. | Their execution log records what the agent *did*, not whether its findings match the evidence. |
+| **Agent-memory or log platforms** | They keep the agent's diary: what it came to believe, in its own words, unverified. | This diary can't tell you what the agent *ought* to have known, or where what it thought was true was hallucinated, diverged from the evidence, or was based on obsolete information. |
 {{< /compare >}}
 
 {{< closing >}}
-Today's platforms were built for an era when finding answers was the expensive part of knowledge work. AI ended that era. Plausible answers are cheap now; a record you can sign is the new scarcity.
+Today's platforms were built for an era when finding answers was the expensive part of knowledge work. AI ended that era. Plausible answers are cheap now. A position you can sign today and still defend a year from now is the new scarcity.
 {{< /closing >}}
-{{< /section >}}
-
-{{< section id="why-a-record" >}}
-{{< fork >}}
-## Why a record, and not a faster search
-
-Any tool can get faster at assessing and monitoring, and that race has no finish line. What a tool cannot bolt on afterwards is a record, because of a fork it cannot escape. Either it re-runs the AI whenever history is needed, and history changes under the auditor; or it keeps every output with its evidence attached and checked at the moment of writing, in which case it has built the record. We built the record first.
-{{< /fork >}}
 {{< /section >}}
 
 {{< section id="see-it" band="true" >}}
 {{< cta >}}
 ## See it
 
-Demos are running now, on a fictional compliance review with real regulatory text. We're also happy to start from your material: bring a few of your team's standing conclusions, memos, determinations, filed analyses, and the conversation starts where it matters, which of them rest on something that has since changed.
+Demos are running now. We're also happy to start from your material: bring a few of your team's standing conclusions, memos, determinations, filed analyses, and we'll show you how they are managed in Exeges.
 
 [Get in touch](mailto:info@exeges.ai?subject=Exeges%20demo) to set one up.
 
-More: [how it works](/features/) · [about Exeges](/about/) · [architecture](/architecture/) · [posts](/posts/)
+More: [how it works](/features/) · [use cases](/use-cases/) · [about Exeges](/about/) · [posts](/posts/)
 {{< /cta >}}
 {{< /section >}}

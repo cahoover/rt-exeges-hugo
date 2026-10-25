@@ -1,6 +1,6 @@
 {{ define "main" }}
 <article class="post">
-  <div class="wrap">
+  <div class="wrap"><div class="post__inner">
     <header class="post__head">
       <p class="meta"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 January 2006" }}</time>{{ with .Params.author }} · {{ . }}{{ end }}</p>
       <h1>{{ .Title }}</h1>
@@ -10,6 +10,6 @@
       {{ with .Params.tags }}<ul class="tags">{{ range . }}<li><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}/">{{ . }}</a></li>{{ end }}</ul>{{ end }}
       <a href="/posts/">All posts →</a>
     </footer>
-  </div>
+  </div></div>
 </article>
 {{ end }}

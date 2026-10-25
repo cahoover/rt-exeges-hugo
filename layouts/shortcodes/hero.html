@@ -1,1 +1,11 @@
-<section class="hero"><div class="wrap hero__inner"><div class="hero__text">{{ .Inner | markdownify }}</div><div class="hero__art" aria-hidden="true">{{ (resources.Get "svg/hero-record.svg").Content | safeHTML }}</div></div></section>
+{{/* Keep the first Markdown line (the title) above one text column and its figure. */}}
+{{- $lines := split (trim .Inner "\r\n ") "\n" -}}
+<section class="hero"><div class="wrap hero__inner">
+<div class="hero__heading">{{ index $lines 0 | markdownify }}</div>
+<div class="hero__text">{{ delimit (after 1 $lines) "\n" | markdownify }}</div>
+{{ if .Get "image" }}
+<div class="hero__figure">{{ partial "figure.html" (dict "page" .Page "image" (.Get "image") "alt" (.Get "alt") "caption" (.Get "caption") "prototype" false "width" 1600 "detail" true) }}</div>
+{{ else }}
+<div class="hero__art" aria-hidden="true">{{ (resources.Get "svg/hero-record.svg").Content | safeHTML }}</div>
+{{ end }}
+</div></section>

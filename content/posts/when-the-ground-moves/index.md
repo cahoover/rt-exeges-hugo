@@ -10,7 +10,7 @@ tags:
 
 A stale answer looks exactly like a fresh one. The citation still resolves, the prose is still confident, the verification still passes — because the claim really was true against the version it cites. Nothing about the answer changed. The world underneath it did. In most systems that failure is silent, and you learn about it from a client, an examiner, or a competitor. Exeges is built to make it loud.
 
-TL;DR: The previous posts described a record where every judgment is [anchored to an exact version of its source](/posts/the-annotation-substrate/) and [verified against the bytes at write time](/posts/the-verification-gate/). This post is about what those two properties buy together. When a document changes, Exeges computes the change as durable, addressable data. Every claim carries the address it stands on, and "which of our conclusions did this amendment touch?" becomes a query answered with the edit attached. Staleness becomes a signal that arrives with the new version.
+TL;DR: The previous posts described a record where every judgment is [anchored to an exact version of its source](/posts/the-grid/) and [verified against the bytes at write time](/posts/the-verification-gate/). This post is about what those two properties buy together. When a document changes, Exeges computes the change as durable, addressable data. Every claim carries the address it stands on, and "which of our conclusions did this amendment touch?" becomes a query answered with the edit attached. Staleness becomes a signal that arrives with the new version.
 
 ## Two clocks
 

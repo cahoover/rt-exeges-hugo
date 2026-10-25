@@ -1,6 +1,6 @@
 ---
 title: "How it works"
-aliases: ["/use-cases/"]
+aliases: ["/architecture/"]
 ---
 {{< section id="intro" >}}
 <div class="page__head">
@@ -10,75 +10,101 @@ aliases: ["/use-cases/"]
 </div>
 <div class="prose">
 
-**Exeges keeps every source you rely on in one versioned place, and records every conclusion your team reaches anchored to the passage that supports it.** Documents, datasets, filings, and transcripts are ingested as versioned sources with structure intact. Every source is given stable coordinates, the way latitude and longitude anchor a point to a map.
+**Exeges keeps every source you rely on in one versioned place, and records every conclusion your team reaches anchored to the passage that supports it.** Documents, datasets, filings, and transcripts are ingested as versioned sources with structure intact. 
 
-Findings are made the way you already work. Ask a question in plain language and get an answer drawn from the whole corpus. Turn an agent loose on a section and let it investigate. Run a deterministic pass and flag every occurrence at once.
-
-Every finding, by human, machine, or AI, is anchored to those coordinates and filed in the record. It lives with the document, points at the text that supports it, and holds its position as the corpus grows and changes around it.
+Ask a question in plain language and get an answer drawn from the whole set of documents and data. Turn an agent loose on a section and let it investigate.
 
 </div>
 {{< /section >}}
 
-{{< section id="three-kinds-of-authors" band="true" >}}
-<div class="section__head">
+{{< section id="mechanism" >}}
+<div class="walk">
 
-## Three kinds of authors. One record.
+<div class="walk__step" id="the-grid">
+<div class="prose">
+<span class="eyebrow">Pull in information</span>
+
+### Any source is versioned and citable
+
+Documents, web pages, spreadsheets, video, and feeds from any API, public or private, are ingested as versioned sources with their structure intact.
+
+A grid is then applied: every passage, every table cell, every second of a transcript is given a fixed address, the way latitude and longitude anchor a point on a map. 
+
+We wrote about the design [here](/posts/the-grid/).
 
 </div>
+{{< plate name="grid" num="Image 1" alt="Five kinds of source on the left, a PDF, a web page, a spreadsheet, a video frame at a timecode, and an API request returning filings, converge on a grid mark and continue to one source on the right, version 3, with two earlier versions kept behind it. Every passage, cell and heading carries a small spot, and three carry address chips: section 2 paragraph 1, table 1 row 3 column 3, and the transcript at twelve minutes four seconds." >}}
+Five kinds of source converge on one gridded, versioned source. On the right, version 3 of a filing with two earlier versions kept behind it. Three addresses are called out: section 2, paragraph 1; table 1, row 3, column 3; and a transcript at 12:04. Any line in the plates that follow ends on a spot like these.
+{{< /plate >}}
+</div>
 
-{{< authors >}}
-{{< author icon="pass" >}}
-**Deterministic passes flag whatever you need flagged.** You choose what the system flags in a document: every citation, every mention of a name, every dollar figure, every image. If it can be identified mechanically, it's flagged across the whole corpus at once, each occurrence anchored to its location. This is the scaffolding the other authors build on.
-{{< /author >}}
-{{< author icon="agent" >}}
-**AI agents file claims, and every claim must survive verification.** Agent behavior is defined in a customizable cookbook. An agent's finding is checked against the source excerpt it cites before it can enter the record. If an agent attempts to quote text that isn't there, the whole write is rejected.
-{{< /author >}}
-{{< author icon="person" >}}
-**People adjudicate and extend.** Analysts file findings with typed positions, support, dispute, question, validate, anchored like everything else, including to other findings. Disagreement isn't a comment thread; it's part of the record.
-{{< /author >}}
-{{< /authors >}}
+<div class="walk__step" id="findings-on-the-grid">
+<div class="prose">
+<span class="eyebrow">Mapping Citations</span>
 
-<p class="section__intro" style="margin-top:2rem">The jobs below are the same whether your corpus is regulatory, financial, operational, or clinical.</p>
-{{< /section >}}
+### References point to the grid
 
-{{< section id="jobs" >}}
-{{< job id="develop-the-assessment" image="prototype-apple-filing-pair.png" alt="Two filing cards side by side in the Exeges inquiry prototype: Apple's FY2022 10-K showing an Other non-cash adjustment of $111m, and the FY2024 10-K showing $1,006m for the same fiscal period, each with the stored value, the filing date, and the judgment built on the number." caption="A number checked against the filing it came from, in the Exeges inquiry prototype. Two versions of the same fiscal-year figure, each with its source and the judgment that rests on it." >}}
-## 1. Develop the assessment
+References can cite any point within a documents or data. These can refer to anything: a person, a number, a summary, an image. They can also connect process to source material: a review due by a date, or a position with its reasons. A finding can cite another finding, so the reasoning behind a position is on the record and searchable.
 
-**Bring text, numbers, calculations and relationships together into one inspectable basis for a judgment.**
+</div>
+{{< plate name="references" num="Image 2" alt="A document, version 3 filed 2 March 2026, with six numbered findings around it, each joined by a fine line to one exact spot on the page: an entity, a review due by a date, an amendment, a position, a measure of 4.2 million dollars, and a summary." >}}
+Six findings on version 3. Numbers 1, 3, 5 and 6 were produced by the platform; 2 and 4 were placed by a reader, and 4 cites 3. Each line ends on the one spot that supports the finding.
+{{< /plate >}}
+</div>
 
-An assessment is rarely one passage. It is a requirement read against a procedure, a sampled test result, a reported figure and the calculation that turns it into a margin, and a reviewer's reasons for why that combination is sufficient. Each contribution keeps its identity and its source: the phrase match establishes wording, a number is checked against the cell or sentence it came from, a calculation keeps its operands, and the judgment records who made it and why.
+<div class="walk__step" id="the-gate">
+<div class="prose">
+<span class="eyebrow">Automatic verification</span>
 
-The roll-up stays honest. Each requirement carries its own assessment, supported, partially supported, not found in the reviewed evidence, confirmed absent, not assessed, or not applicable, and the position a named holder signs carries its reasons, the alternative it rejected, and what would change it. The review states its scope and what it did not cover, so *checked and found nothing* is never confused with *never looked*.
-{{< /job >}}
+### Nothing enters unverified
 
-{{< job id="change-monitoring" art="change-map" flip="true" alt="A change map: the sections of a previous version aligned with the sections of a new version, one section changed, and the judgments resting on it marked carried, in doubt, or for review." >}}
-## 2. Change monitoring for critical documents and policies
+Before a reference is written, the text it cites is automatically checked. If the text is there, the reference attaches, verified at that version. If it is not, the write is refused. This avoids both hallucinations and mistakes: an agent cannot cite text that isn't there, and neither can a person.
 
-**Know what changed in the rules of the game, and which of your conclusions still stand.**
+How the check works: [The Verification Gate](/posts/the-verification-gate/).
 
-The highest-signal event is change: updated boilerplate in a filing, a reissued guidance, an amended regulation, a revised procedure of your own. Each new version is rendered into a change map, every difference anchored to the passages it touches. The system doesn't just produce a redline or an alert for watched sections; an agent is dispatched to investigate the change, and what it finds goes through the gate before anyone sees it.
+</div>
+{{< plate name="gate" num="Image 3" alt="Version 3 of a document on the left. On the right, a measure finding citing the text 4.2 in row 3 is joined to the table cell and stamped verified at version 3. A second finding citing 4.8 in the same row is pushed back and stamped refused, text not found at version 3." >}}
+Two findings approach the same cell. The first cites “4.2”, which is on the page at version 3, and attaches as verified. The second cites “4.8”, which is not, and the write is refused.
+{{< /plate >}}
+</div>
 
-Because findings are anchored to the text, change arrives already joined to your record: the judgments resting on what moved are listed for review, within the scope you declared. Where the old and new text can be compared, a judgment that survived reads as carried. Where they cannot, it reads as in doubt rather than quietly surviving. The held position stays on record until a person changes it.
+<div class="walk__step" id="a-new-version">
+<div class="prose">
+<span class="eyebrow">Monitoring change</span>
 
-A change also arrives with its consequences attached. Search is a traversal of typed relationships, each one clickable to the text that supports it. Ask for the document sections that meet a specific set of criteria, *every provision that adds a requirement and rescinds an exemption*, and you get a proven set, selected by compound membership, ordered by document order, with the conditions it could not evaluate disclosed.
+### A new version arrives
 
-*Regulations and guidance · financial filings and debt agreements · contracts · your own procedures and policies.*
-{{< /job >}}
+New versions are aligned to the last one section by section, and every difference is recorded. Continuity survives renumbering and restructuring. Change is evidence like any other: anchored, queryable, replayable.
 
-{{< job id="institutional-memory" image="prototype-marks-overview.png" alt="An inquiry overview in the Exeges inquiry prototype: the question whether a loan is marked differently across two funds, four candidate pairs, and a captured-evidence panel dated 20 October 2026 noting that later restatements were not checked." caption="An inquiry as captured on 20 October 2026, in the Exeges inquiry prototype. The capture records what was checked and what was not, so it replays the same way later." >}}
-## 3. Institutional memory that compounds
+Every reference anchored to an old version is checked against the new one. Changes cause the reference to be updated as in doubt. No finding is ever moved to new text; a position stays on record until a person changes it. 
 
-**Every question your team ever asked, still answerable years later.**
+</div>
+{{< plate name="version" num="Plate 4" alt="The same document, now version 4 filed 9 June 2026. Three findings are re-checked: the entity finding is badged still holds, the measure finding is badged in doubt because the cell it points to now reads 4.6 million dollars restated, and the summary finding is badged not yet checked. No finding has been moved." >}}
+Version 4 replaces version 3 and every finding is checked against it. Finding 1 still holds. Finding 5 is in doubt: the cell it points to now reads $4.6M, restated, and the finding stays where it was. Finding 6 is not yet checked.
+{{< /plate >}}
+</div>
 
-Analyst and agent findings accumulate on the corpus, so provisional machine output stays distinguishable from validated conclusions, and contested ground stays visible. A finding replays exactly as it was recorded: the conclusion, the passage version it cited, who made the call, and when. We never re-run the analysis and present fresh output as the historical record. New hires and new agent sessions inherit everything the team has established, including what has been examined, what was skimmed, and what remains untouched.
+<div class="walk__step" id="the-record-compounds">
+<div class="prose">
+<span class="eyebrow">Compounding records</span>
 
-The record is yours. It is kept as ordinary files, designed so that another party, a client, a successor, an auditor, can inspect the evidence, the reasoning and the history and record their own acceptance without depending on our running system. The same property lets a case, a dossier on a counterparty, an issuer, a supplier, a provider group, survive handoff, scrutiny, and time.
-{{< /job >}}
+### The record compounds
+
+Creating a reference is something the system can react to: raise the section for the analyst who owns it, or put the next AI investigation to work. References help the next reader, human or agent, starts from what has already been established.
+
+Agents work the corpus through a set of MCP tools: survey it, read a document, search it, inspect a diff, list the findings on a section, file one. They read their own coverage too, what has been examined, what was skimmed, what remains untouched, so a session builds on prior work.
+
+</div>
+{{< plate name="second-reader" num="Image 5" alt="On the left, six findings left by a first session in March 2026, each joined by a faint line to its spot on the page. A second session arrives in June, follows the third finding to its spot, and adds a seventh, a position that cites the third. Two gauges below read: findings inherited, six of six; pages re-read, none of four hundred and twelve." >}}
+A second session arrives in June and starts from the six findings the first left in March. It reads them, visits one spot, and adds a seventh that cites the third. Nothing was re-derived and no page was read twice.
+{{< /plate >}}
+</div>
+
+</div>
 {{< /section >}}
 
 {{< section id="demo" band="true" >}}
 {{< cta >}}
-Demos are running now. [Get in touch](mailto:info@exeges.ai?subject=Exeges%20demo) to see one.
+Demos are running now. [Get in touch](mailto:info@exeges.ai?subject=Exeges%20demo) to see one, or read what teams use it for: [use cases](/use-cases/).
 {{< /cta >}}
 {{< /section >}}

@@ -1,0 +1,25 @@
+<dialog class="lightbox" id="lightbox" aria-labelledby="lightbox-caption">
+  <form method="dialog" class="lightbox__bar"><button class="lightbox__close" type="submit">Close</button></form>
+  <figure class="lightbox__figure"><img class="lightbox__img" alt=""><figcaption class="lightbox__caption" id="lightbox-caption"></figcaption></figure>
+</dialog>
+<script>
+(function () {
+  var dlg = document.getElementById('lightbox');
+  if (!dlg || typeof dlg.showModal !== 'function') return;
+  var img = dlg.querySelector('.lightbox__img');
+  var cap = dlg.querySelector('.lightbox__caption');
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest('a[data-lightbox]');
+    if (!a || e.defaultPrevented || e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+    e.preventDefault();
+    img.src = a.getAttribute('href');
+    img.alt = a.getAttribute('data-alt') || '';
+    var text = a.getAttribute('data-caption') || '';
+    cap.textContent = text;
+    cap.hidden = !text;
+    dlg.showModal();
+  });
+  dlg.addEventListener('click', function (e) { if (e.target === dlg) dlg.close(); });
+  dlg.addEventListener('close', function () { img.removeAttribute('src'); });
+})();
+</script>

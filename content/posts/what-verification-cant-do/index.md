@@ -40,6 +40,6 @@ In Exeges every change is durable data and every determination is anchored, so *
 
 ## Calibration is measured
 
-Conservative calibration has its own failure mode: cry wolf. Flag everything and reviewers stop reading flags. So conservative is the starting point, and every flag lands in the record as a typed, anchored judgment, just as [every other stance does](/posts/the-annotation-substrate/). What accumulates is labeled history pinned to exact text that says "this change, this flag, this ruling." That delivers the raw material for measuring the screener and tuning it within the same auditable record it serves.
+Conservative calibration has its own failure mode: cry wolf. Flag everything and reviewers stop reading flags. So conservative is the starting point, and every flag lands in the record as a typed, anchored judgment, just as [every other stance does](/posts/the-grid/). What accumulates is labeled history pinned to exact text that says "this change, this flag, this ruling." That delivers the raw material for measuring the screener and tuning it within the same auditable record it serves.
 
 

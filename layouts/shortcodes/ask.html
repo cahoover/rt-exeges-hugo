@@ -1,0 +1,12 @@
+{{- $img := resources.Get (printf "images/%s" (.Get "image")) -}}
+{{- $png := $img.Resize "1000x q90" -}}
+{{- $webp := $img.Resize "1000x webp q85" -}}
+{{- $alt := .Get "alt" -}}
+{{- $cap := .Get "caption" | default $alt -}}
+<li class="ask">
+<a class="ask__shot" href="{{ $img.RelPermalink }}" data-lightbox data-alt="{{ $alt }}" data-caption="{{ $cap }}" tabindex="-1" aria-hidden="true"><span class="figure__frame figure__frame--bar"><picture><source type="image/webp" srcset="{{ $webp.RelPermalink }}"><img src="{{ $png.RelPermalink }}" width="{{ $png.Width }}" height="{{ $png.Height }}" alt="" loading="lazy"></picture></span></a>
+<h3 class="ask-list__q"><a href="{{ $img.RelPermalink }}" data-lightbox data-alt="{{ $alt }}" data-caption="{{ $cap }}">{{ .Get "q" }}</a></h3>
+<p class="ask-list__corpus">{{ .Get "corpus" }}</p>
+<p class="ask-list__state">{{ .Inner | markdownify }}</p>
+<a class="ask-list__link" href="{{ $img.RelPermalink }}" data-lightbox data-alt="{{ $alt }}" data-caption="{{ $cap }}"><span class="tag">Prototype</span>View screenshot ↗</a>
+</li>
