@@ -90,19 +90,18 @@ Workflows don't usually live in one system. The program office writes the fix, l
 {{< section id="how-todays-systems-fall-short" >}}
 <div class="section__head">
 
-## Today's systems
+## Where the reasoning lives today
 
 </div>
 <p class="section__intro">None of these go away. Each is missing the same layer: the reasoning, anchored to the version of the sources it was based on.</p>
 
 {{< compare >}}
-| | What it does | Where it falls short |
+| | What it does well | What it can't tell you |
 | --- | --- | --- |
 | **GRC and document-management platforms** | The system of record most compliance teams already own. Controls mapped to frameworks, policies under version control, attestations signed, evidence attached, changes logged. | They record status and sign-off, not reasoning or the impact of change. The regulation is a label on a mapping, not a versioned text, so a change feed can say the rule was updated but not which of your positions was based on the changed clause. |
-| **Analyst with a chat window** | The system most teams actually run. The output can be excellent, and that's what makes it dangerous. | Nothing scales except the volume: every finding is re-derived from scratch, no one else can open the session it came from, and the citation was never checked against the source. Six months on, the record of why is a recollection. |
-| **Research platforms** | They merge a dozen sources into a strong synthesis. | The synthesis is not a durable record. It is tied to no version of its sources, signed by no one, and does nothing when a source changes. |
-| **Agent-governance platforms** | Tool calls, approval gates, tamper-evident trails. Every step the agent takes is logged. | Their execution log records what the agent *did*, not whether its findings match the evidence. |
-| **Agent-memory or log platforms** | They keep the agent's diary: what it came to believe, in its own words, unverified. | This diary can't tell you what the agent *ought* to have known, or where what it thought was true was hallucinated, diverged from the evidence, or was based on obsolete information. |
+| **Legal and regulatory research services** | The subscription your team searches first. They hold the current text of the rules, send the alert when one changes, and tell you whether a rule or a case you cited is still in force. | They know the rules. They don't know your positions. When a clause moves, they can say the rule changed; they can't say which of the positions your team signed last year rested on the sentence that went. |
+| **The memo, the spreadsheet, the shared drive** | Where the reasoning actually lives: the memo that made the call, whether in-house or outside counsel wrote it, the tracker that lists the obligations, the folder with the signed copy. Familiar, searchable, and right on the day it was written. | A memo with the rule attached is a printed spreadsheet: right on the day you printed it, formulas gone. Nobody recorded which sentence of the rule each conclusion rested on, so when the rule changes you reread the memos. Your people still make every call; they should start from the few positions the change touches, not from the whole drive. |
+| **The AI assistant, sanctioned or not** | The fastest analyst the team has ever had, and often right. | The sources it names were never checked against the text, nobody else can open the conversation it came from, and a year on all you have is the answer. |
 {{< /compare >}}
 
 {{< closing >}}
