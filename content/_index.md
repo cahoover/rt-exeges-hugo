@@ -2,15 +2,15 @@
 title: "Exeges"
 ---
 {{< hero image="prototype-aster-requirements.png" alt="The Aster Biologics requirements review in the Exeges inquiry prototype: five requirements, each with its interpretation, client evidence, assessment and change status. One row reads Needs review since 2026-10-14; one has a disagreement recorded." caption="The requirements review for Aster Biologics. One requirement needs review because records it cites have changed; one has a recorded disagreement." >}}
-# Compliance at AI scale, with every step auditable.
+# "It depends" has a shelf life.
 
-**Products change, policies change, and compliance changes with them. Exeges tracks what was determined, when, and why.**
+**Compliance, regulatory, and legal teams deal with questions whose answers are only as good as the last time someone checked.**
 
-Compliance, regulatory, and legal teams deal with questions whose answers are only as good as the last time someone checked. *Are we compliant? Is this position still sound? What changed, and do we care?* 
+Products change, policies change, and compliance changes with them. *Are we compliant? Is this position still sound? What changed, and do we care?* 
 
-The moment a regulation is amended, guidance is reissued, or a PR is merged, the answers need another evaluation. Everyone is adopting AI to help, but humans remain accountable because a model can't be fired, interviewed, or subpoenaed.
+The moment a regulation is amended, guidance is reissued, or new code ships, regulatory conclusions need another evaluation. Everyone is adopting AI to help, but humans remain accountable because a model can't be fired, interviewed, or subpoenaed.
 
-Exeges is AI for compliance teams. It tracks how source material informs positions, evaluates how changes to the source material impact positions, and keeps a durable history of past positions and the evidence that supported them.
+Exeges tracks what each conclusion depends on, flags those affected by a change in the evidence, and puts it in front of the person accountable. 
 {{< /hero >}}
 
 {{< section id="one-change-three-positions" band="true" >}}
