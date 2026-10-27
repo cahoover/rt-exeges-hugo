@@ -16,31 +16,31 @@ Exeges tracks what each conclusion depends on, flags those affected by a change 
 {{< section id="one-change-three-positions" band="true" >}}
 <div class="section__head">
 
-## Rules, evaluations, disagreements, and changes
+## Assess. Monitor. Answer for it.
 
 </div>
 
 {{< scene >}}
 {{< scene-step number="01" label="Assess." image="prototype-aster-two-readings.png" alt="An interpretation card in the Exeges inquiry prototype reading No interpretation accepted, assessment unresolved, two views recorded and different. Under Candidate readings and disagreement, two statements dated 2026-10-13: the client compliance lead favours evaluating the paper-log alternative, citing the FDA guidance and a risk assessment; the consultant says enforcement discretion does not settle adequacy, citing the regulation, the guidance and the same risk assessment." caption="Two readings of one requirement, each with its holder, date, reasons and the passages it cites, and the requirement marked unresolved rather than settled by whoever wrote last." >}}
-Acme's roller skate product is being upgraded, and the compliance team flags five rules in the enhanced-skate regs that might apply. 
+Aster Biologics is validating a new system. Its compliance team works with a consultancy, and together they flag five requirements that apply.
 
-An Exeges AI agent evaluates the rules and drafts an interpretation. A third-party enhanced-garment specialist reviews the drafts, noting that noise regulations also apply (sonic booms). Exeges tracks each change and the reasoning behind it.
+An Exeges agent reads each requirement and drafts an interpretation, pinning the requirement as well as the Aster records that answer it. The consultant reviews the drafts, corrects two, and accepts them.
 
-Acme's compliance lead disagrees with one position, arguing that the parachute clause is actually not triggered. Exeges keeps both positions and **marks the rule "disputed."**
+The team and consultant disagree on one requirement. Aster holds that FDA's enforcement discretion makes a paper-log alternative adequate; the consultant holds that discretion doesn't settle adequacy. Exeges records both readings, reasons and citations, and marks the requirement unresolved.
 {{< /scene-step >}}
 
 {{< scene-step number="02" label="Monitor." image="prototype-aster-in-doubt.png" alt="A judgment card in the Exeges inquiry prototype under a notice reading Earlier judgment needs review: a source used for acceptance has a newer selected revision; the historical acceptance remains pinned to its original evidence. The card reads: the distribution controls described in revision 5 support the requirement, Maya Chen, client compliance lead, 2026-10-13, assessment supported, badged In doubt because its words do not appear in revision 6, effective 2026-10-14." caption="A judgment accepted against revision 5 of a procedure, listed in doubt when revision 6 arrived on 14 October. The judgment was not moved; it waits for the person who holds it." >}}
-On Friday, the government's enhanced-footwear committee rewrites its safety chapter and drops the parachute clause. 
+Aster's document control issues revision 6 of its distribution procedure. The wording that one accepted judgment relied on has been removed.
 
-Monday morning the compliance lead opens Exeges and sees the changes, the positions they impact, and an AI's assessment of impact.
+In Exeges, four positions stand. The fifth is listed in doubt, with the agent's read of what changed and whether the position survives.
 
-Four positions are still valid. The disputed one no longer has a rule behind it, and she says so, on the record.
+The team reviews revision 6 and records a new judgment pinned to it. The old judgment stays on the record as the previous version.
 {{< /scene-step >}}
 
 {{< scene-step number="03" label="Answer for it." image="prototype-aster-record-judgment.png" alt="A dialog in the Exeges inquiry prototype titled Review evidence and record judgment, for the requirement Control of system documentation. It states the prior assessment, Supported, Maya Chen, client compliance lead, 2026-10-13, and that recording creates a new revision while the earlier judgment remains. Below are the assessment choices, a rationale field, the two pinned sources with their versions, a Recorded by field, and a confirmation that the selected revisions were reviewed." caption="Recording a new judgment on the same requirement. The prior assessment keeps its holder and date, and the new one pins the exact revisions it rests on and names who recorded it." >}}
-Months later an auditor asks why the skate was approved. The compliance team works with a lot of products, so no one remembers offhand.
+Fourteen months later, an FDA investigator asks why that requirement was marked supported. Aster has run forty validations since; nobody remembers offhand.
 
-Exeges tracks all evaluations across all products, so they pull up the position's history: the original determination, the rule it cited, who signed it, when, and why.
+The team pulls up the requirement: the original determination, the revision it was read against, the disagreement and what was decided, who signed, when, and why.
 {{< /scene-step >}}
 {{< /scene >}}
 {{< /section >}}
@@ -50,7 +50,7 @@ Exeges tracks all evaluations across all products, so they pull up the position'
 
 ## Built for the process you already have
 
-Workflows don't usually live in one system. The program office writes the fix, legal reads what the rule requires, budget decides whether it's funded, and one coordinator answers for the whole. Each stop has its own tools and its own output: a memo, a spreadsheet, a signed PDF. Exeges doesn't ask anyone to change tools. What each department produces is a source like any other: versioned with anchored references.
+Workflows don't usually live in one system. Exeges doesn't ask anyone to change tools, their output is a source like any other: versioned with anchored references.
 
 </div>
 {{< /section >}}
