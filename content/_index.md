@@ -8,7 +8,7 @@ title: "Exeges"
 
 Products change, policies change, and compliance changes with them. *Are we compliant? Is this position still sound? What changed, and do we care?* 
 
-The moment a regulation is amended, guidance is reissued, or new code ships, regulatory conclusions need another evaluation. Everyone is adopting AI to help, but humans remain accountable because a model can't be fired, interviewed, or subpoenaed.
+The moment a regulation is amended, guidance is reissued, or new code ships, regulatory conclusions get stale. Everyone is adopting AI to help, but humans remain accountable because a model can't be fired, interviewed, or subpoenaed.
 
 Exeges tracks what each conclusion depends on, flags those affected by a change in the evidence, and puts it in front of the person accountable. 
 {{< /hero >}}
